@@ -1,0 +1,67 @@
+# Visual Studio and Rider
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+nuget.lock
+
+# Logs, Database, and Backup Files
+*.log
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.bak
+
+# Temporary and Cache Files
+*.tmp
+*.cache
+*.diff
+*.patch
+*.swp
+*.swn
+
+# User-specific settings
+*.vs/
+*.tss
+*.psess
+*.ide
+*.dotCover
+*.resharper
+*.sublime-workspace
+*.ncrunchproject
+
+# Windows Thumbnail Database
+Thumbs.db
+
+# JetBrains Rider settings
+*.sln.iml
+.idea/
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsightsTelemetry.config
+
+# Publish and Deployment
+publish/
+.deploy/

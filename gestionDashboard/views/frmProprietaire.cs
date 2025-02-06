@@ -27,17 +27,16 @@ namespace gestionDashboard.views
             txtNom.Text = string.Empty;
             txtEmail.Text = string.Empty;
             txtTel.Text = string.Empty;
-            txtCNI.Text = string.Empty;
             txtNinea.Text = string.Empty;
             txtRccm.Text = string.Empty;
             var proprietaires = db.proprietaires
                       .Select(p => new
                       {
-                          Nom = p.Prenom,
-                          Prenom = p.Nom,
+                          Id = p.IdPersonne,
+                          Nom = p.Nom,
+                          Prenom = p.Prenom,
                           Email = p.Email,
                           Telephone = p.Telephone,
-                          CNI = p.CNI,
                           Ninea = p.Ninea,
                           RCCM = p.Rccm
                       })
@@ -47,15 +46,15 @@ namespace gestionDashboard.views
 
         }
 
-        private Boolean check(string prenom, string nom, string email, string telephone, string cni, string ninea, string rccm)
+        private Boolean check(string prenom, string nom, string email, string telephone, string ninea, string rccm)
         {
 
             if (string.IsNullOrWhiteSpace(prenom)) return false;
             if (string.IsNullOrWhiteSpace(nom)) return false;
             if (string.IsNullOrWhiteSpace(email) || !Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$")) return false;
             if (string.IsNullOrWhiteSpace(telephone) || !Regex.IsMatch(telephone, @"^(77|78|76|75|70)\d{7}$")) return false;
-            if (string.IsNullOrWhiteSpace(cni) || cni.Length != 13 || !Regex.IsMatch(cni, @"^\d{13}$")) return false;
-            if (string.IsNullOrWhiteSpace(ninea) || !Regex.IsMatch(ninea, @"^\d{9}$")) return false;
+            //if (string.IsNullOrWhiteSpace(cni) || cni.Length != 13 || !Regex.IsMatch(cni, @"^\d{13}$")) return false;
+            if (string.IsNullOrWhiteSpace(ninea) || !Regex.IsMatch(ninea, @"^\d{3}$")) return false;
             if (string.IsNullOrWhiteSpace(rccm)) return false;
 
             return true;
@@ -70,11 +69,10 @@ namespace gestionDashboard.views
                 string nom = txtNom.Text.Trim();
                 string email = txtEmail.Text.Trim();
                 string telephone = txtTel.Text.Trim();
-                string cni = txtCNI.Text.Trim();
                 string ninea = txtNinea.Text.Trim();
                 string rccm = txtRccm.Text.Trim();
 
-                Boolean verif = check(prenom, nom, email, telephone, cni, ninea, rccm);
+                Boolean verif = check(prenom, nom, email, telephone, ninea, rccm);
 
                 if (!verif)
                 {
@@ -87,7 +85,6 @@ namespace gestionDashboard.views
                 p.Prenom = prenom;
                 p.Email = email;
                 p.Telephone = telephone;
-                p.CNI = cni;
                 p.Ninea = ninea;
                 p.Rccm = rccm;
 
@@ -114,11 +111,10 @@ namespace gestionDashboard.views
             string nom = txtNom.Text.Trim();
             string email = txtEmail.Text.Trim();
             string telephone = txtTel.Text.Trim();
-            string cni = txtCNI.Text.Trim();
             string ninea = txtNinea.Text.Trim();
             string rccm = txtRccm.Text.Trim();
 
-            Boolean verif = check(prenom, nom, email, telephone, cni, ninea, rccm);
+            Boolean verif = check(prenom, nom, email, telephone, ninea, rccm);
 
             if (!verif)
             {
@@ -132,11 +128,11 @@ namespace gestionDashboard.views
             p.Prenom = txtPrenom.Text;
             p.Email = txtEmail.Text;
             p.Telephone = txtTel.Text;
-            p.CNI = txtCNI.Text;
             p.Ninea = txtNinea.Text;
             p.Rccm = txtRccm.Text;
             db.SaveChanges();
             ResetForm();
+            MessageBox.Show("Propriétaire modifié avec succès !");
         }
 
         private void btnSupprimer_Click(object sender, EventArgs e)
@@ -146,6 +142,18 @@ namespace gestionDashboard.views
             db.proprietaires.Remove(p);
             db.SaveChanges();
             ResetForm();
+            MessageBox.Show("Propriétaire supprimé avec succès !");
+        }
+
+        private void btnChoisir_Click(object sender, EventArgs e)
+        {
+            txtNom.Text = dgProprietaire.CurrentRow.Cells[1].Value.ToString();
+            txtPrenom.Text = dgProprietaire.CurrentRow.Cells[2].Value.ToString();
+            txtEmail.Text = dgProprietaire.CurrentRow.Cells[3].Value.ToString();
+            txtTel.Text = dgProprietaire.CurrentRow.Cells[4].Value.ToString();
+            txtNinea.Text = dgProprietaire.CurrentRow.Cells[5].Value.ToString();
+            txtRccm.Text = dgProprietaire.CurrentRow.Cells[6].Value.ToString();
+
         }
     }
 }

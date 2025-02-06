@@ -30,18 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestion));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlNav = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pnlInterface = new System.Windows.Forms.Panel();
-            this.btnDeconnexion = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
+            this.pnlNav = new System.Windows.Forms.Panel();
+            this.btnDeconnexion = new System.Windows.Forms.Button();
+            this.btnLocataire = new System.Windows.Forms.Button();
             this.btnLocation = new System.Windows.Forms.Button();
             this.btnProprietaire = new System.Windows.Forms.Button();
             this.btnAppartement = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlInterface = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,9 +51,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.pnlNav);
             this.panel1.Controls.Add(this.btnDeconnexion);
-            this.panel1.Controls.Add(this.btnSettings);
+            this.panel1.Controls.Add(this.btnLocataire);
             this.panel1.Controls.Add(this.btnLocation);
             this.panel1.Controls.Add(this.btnProprietaire);
             this.panel1.Controls.Add(this.btnAppartement);
@@ -64,6 +66,22 @@
             this.panel1.Size = new System.Drawing.Size(186, 577);
             this.panel1.TabIndex = 0;
             // 
+            // btnSettings
+            // 
+            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSettings.FlatAppearance.BorderSize = 0;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.btnSettings.Image = global::gestionDashboard.Properties.Resources.icons8_paramètres_24;
+            this.btnSettings.Location = new System.Drawing.Point(0, 371);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(186, 42);
+            this.btnSettings.TabIndex = 3;
+            this.btnSettings.Text = "Paramètres";
+            this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnSettings.UseVisualStyleBackColor = true;
+            // 
             // pnlNav
             // 
             this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
@@ -71,48 +89,6 @@
             this.pnlNav.Name = "pnlNav";
             this.pnlNav.Size = new System.Drawing.Size(3, 140);
             this.pnlNav.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(186, 161);
-            this.panel2.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.label2.Location = new System.Drawing.Point(35, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Some User Text Here";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(48, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "User Name";
-            // 
-            // pnlInterface
-            // 
-            this.pnlInterface.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlInterface.Location = new System.Drawing.Point(186, 0);
-            this.pnlInterface.Name = "pnlInterface";
-            this.pnlInterface.Size = new System.Drawing.Size(765, 577);
-            this.pnlInterface.TabIndex = 1;
-            this.pnlInterface.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // btnDeconnexion
             // 
@@ -130,23 +106,23 @@
             this.btnDeconnexion.UseVisualStyleBackColor = true;
             this.btnDeconnexion.Click += new System.EventHandler(this.btnDeconnexion_Click);
             // 
-            // btnSettings
+            // btnLocataire
             // 
-            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSettings.FlatAppearance.BorderSize = 0;
-            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSettings.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnSettings.Image = global::gestionDashboard.Properties.Resources.icons8_paramètres_24;
-            this.btnSettings.Location = new System.Drawing.Point(0, 329);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(186, 42);
-            this.btnSettings.TabIndex = 1;
-            this.btnSettings.Text = "Paramètres";
-            this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            this.btnSettings.Leave += new System.EventHandler(this.btnSettings_Leave);
+            this.btnLocataire.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLocataire.FlatAppearance.BorderSize = 0;
+            this.btnLocataire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLocataire.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLocataire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.btnLocataire.Image = global::gestionDashboard.Properties.Resources.icons8_personne_à_la_maison_30;
+            this.btnLocataire.Location = new System.Drawing.Point(0, 329);
+            this.btnLocataire.Name = "btnLocataire";
+            this.btnLocataire.Size = new System.Drawing.Size(186, 42);
+            this.btnLocataire.TabIndex = 1;
+            this.btnLocataire.Text = "Locataires";
+            this.btnLocataire.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnLocataire.UseVisualStyleBackColor = true;
+            this.btnLocataire.Click += new System.EventHandler(this.btnLocataire_Click);
+            this.btnLocataire.Leave += new System.EventHandler(this.btnSettings_Leave);
             // 
             // btnLocation
             // 
@@ -220,6 +196,39 @@
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             this.btnDashboard.Leave += new System.EventHandler(this.btnDashboard_Leave);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(186, 161);
+            this.panel2.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
+            this.label2.Location = new System.Drawing.Point(35, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 12);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Some User Text Here";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.label1.Location = new System.Drawing.Point(48, 90);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "User Name";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -229,6 +238,15 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // pnlInterface
+            // 
+            this.pnlInterface.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlInterface.Location = new System.Drawing.Point(186, 0);
+            this.pnlInterface.Name = "pnlInterface";
+            this.pnlInterface.Size = new System.Drawing.Size(765, 577);
+            this.pnlInterface.TabIndex = 1;
+            this.pnlInterface.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // frmGestion
             // 
@@ -261,11 +279,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Button btnDeconnexion;
-        private System.Windows.Forms.Button btnSettings;
+        private System.Windows.Forms.Button btnLocataire;
         private System.Windows.Forms.Button btnLocation;
         private System.Windows.Forms.Button btnProprietaire;
         private System.Windows.Forms.Button btnAppartement;
         private System.Windows.Forms.Panel pnlNav;
         private System.Windows.Forms.Panel pnlInterface;
+        private System.Windows.Forms.Button btnSettings;
     }
 }

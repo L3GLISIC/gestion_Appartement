@@ -31,22 +31,25 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.txtRecherche = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnChoisir = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnModifier = new System.Windows.Forms.Button();
-            this.btnEnregistrer = new System.Windows.Forms.Button();
-            this.btnSupprimer = new System.Windows.Forms.Button();
-            this.cbProprietaire = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.duCapacite = new System.Windows.Forms.DomainUpDown();
+            this.dgLocation = new System.Windows.Forms.DataGridView();
+            this.cbAppartement = new System.Windows.Forms.ComboBox();
             this.Capacité = new System.Windows.Forms.Label();
-            this.duNbrPiece = new System.Windows.Forms.DomainUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.rtbAdresse = new System.Windows.Forms.RichTextBox();
-            this.txtSurface = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.duMontant = new System.Windows.Forms.DomainUpDown();
+            this.dtpDateDebut = new System.Windows.Forms.DateTimePicker();
+            this.dtpDateFin = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cbStatut = new System.Windows.Forms.ComboBox();
+            this.cbLocataire = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnPayer = new System.Windows.Forms.Button();
+            this.btnChoisirLocation = new System.Windows.Forms.Button();
+            this.btnModifierLocation = new System.Windows.Forms.Button();
+            this.btnEnregistrerLocation = new System.Windows.Forms.Button();
+            this.btnSupprimerLocation = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgLocation)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClear
@@ -85,185 +88,222 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Locations";
             // 
-            // btnChoisir
+            // dgLocation
             // 
-            this.btnChoisir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(249)))));
-            this.btnChoisir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChoisir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(249)))));
-            this.btnChoisir.Image = global::gestionDashboard.Properties.Resources.icons8_doigt_24;
-            this.btnChoisir.Location = new System.Drawing.Point(263, 76);
-            this.btnChoisir.Name = "btnChoisir";
-            this.btnChoisir.Size = new System.Drawing.Size(74, 34);
-            this.btnChoisir.TabIndex = 10;
-            this.btnChoisir.Text = "Choisir";
-            this.btnChoisir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnChoisir.UseVisualStyleBackColor = true;
+            this.dgLocation.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.dgLocation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgLocation.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.dgLocation.Location = new System.Drawing.Point(263, 116);
+            this.dgLocation.Name = "dgLocation";
+            this.dgLocation.Size = new System.Drawing.Size(492, 443);
+            this.dgLocation.TabIndex = 32;
             // 
-            // dataGridView1
+            // cbAppartement
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.dataGridView1.Location = new System.Drawing.Point(263, 116);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(492, 443);
-            this.dataGridView1.TabIndex = 32;
-            // 
-            // btnModifier
-            // 
-            this.btnModifier.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(176)))), ((int)(((byte)(5)))));
-            this.btnModifier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModifier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(176)))), ((int)(((byte)(5)))));
-            this.btnModifier.Image = global::gestionDashboard.Properties.Resources.icons8_modifier_24;
-            this.btnModifier.Location = new System.Drawing.Point(142, 480);
-            this.btnModifier.Name = "btnModifier";
-            this.btnModifier.Size = new System.Drawing.Size(92, 34);
-            this.btnModifier.TabIndex = 8;
-            this.btnModifier.Text = "Modifier";
-            this.btnModifier.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnModifier.UseVisualStyleBackColor = true;
-            // 
-            // btnEnregistrer
-            // 
-            this.btnEnregistrer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
-            this.btnEnregistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnregistrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
-            this.btnEnregistrer.Image = global::gestionDashboard.Properties.Resources.icons8_sauvegarder_24;
-            this.btnEnregistrer.Location = new System.Drawing.Point(27, 480);
-            this.btnEnregistrer.Name = "btnEnregistrer";
-            this.btnEnregistrer.Size = new System.Drawing.Size(92, 34);
-            this.btnEnregistrer.TabIndex = 7;
-            this.btnEnregistrer.Text = "Enregistrer";
-            this.btnEnregistrer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnEnregistrer.UseVisualStyleBackColor = true;
-            // 
-            // btnSupprimer
-            // 
-            this.btnSupprimer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
-            this.btnSupprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSupprimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
-            this.btnSupprimer.Image = global::gestionDashboard.Properties.Resources.icons8_poubelle_24__1_;
-            this.btnSupprimer.Location = new System.Drawing.Point(27, 525);
-            this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(207, 34);
-            this.btnSupprimer.TabIndex = 9;
-            this.btnSupprimer.Text = "Supprimer";
-            this.btnSupprimer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnSupprimer.UseVisualStyleBackColor = true;
-            // 
-            // cbProprietaire
-            // 
-            this.cbProprietaire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.cbProprietaire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbProprietaire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.cbProprietaire.FormattingEnabled = true;
-            this.cbProprietaire.Items.AddRange(new object[] {
+            this.cbAppartement.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.cbAppartement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbAppartement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.cbAppartement.FormattingEnabled = true;
+            this.cbAppartement.Items.AddRange(new object[] {
             "Selectionner"});
-            this.cbProprietaire.Location = new System.Drawing.Point(27, 444);
-            this.cbProprietaire.Name = "cbProprietaire";
-            this.cbProprietaire.Size = new System.Drawing.Size(207, 21);
-            this.cbProprietaire.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label4.Location = new System.Drawing.Point(27, 412);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 17);
-            this.label4.TabIndex = 27;
-            this.label4.Text = "Propriétaire";
-            // 
-            // duCapacite
-            // 
-            this.duCapacite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.duCapacite.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.duCapacite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.duCapacite.Location = new System.Drawing.Point(27, 381);
-            this.duCapacite.Name = "duCapacite";
-            this.duCapacite.Size = new System.Drawing.Size(207, 16);
-            this.duCapacite.TabIndex = 5;
-            this.duCapacite.Text = "0";
+            this.cbAppartement.Location = new System.Drawing.Point(23, 377);
+            this.cbAppartement.Name = "cbAppartement";
+            this.cbAppartement.Size = new System.Drawing.Size(207, 21);
+            this.cbAppartement.TabIndex = 6;
             // 
             // Capacité
             // 
             this.Capacité.AutoSize = true;
             this.Capacité.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Capacité.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.Capacité.Location = new System.Drawing.Point(27, 349);
+            this.Capacité.Location = new System.Drawing.Point(23, 349);
             this.Capacité.Name = "Capacité";
-            this.Capacité.Size = new System.Drawing.Size(58, 17);
+            this.Capacité.Size = new System.Drawing.Size(84, 17);
             this.Capacité.TabIndex = 25;
-            this.Capacité.Text = "Capacité";
-            // 
-            // duNbrPiece
-            // 
-            this.duNbrPiece.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.duNbrPiece.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.duNbrPiece.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.duNbrPiece.Location = new System.Drawing.Point(27, 318);
-            this.duNbrPiece.Name = "duNbrPiece";
-            this.duNbrPiece.Size = new System.Drawing.Size(207, 16);
-            this.duNbrPiece.TabIndex = 4;
-            this.duNbrPiece.Text = "0";
+            this.Capacité.Text = "Appartement";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label3.Location = new System.Drawing.Point(27, 286);
+            this.label3.Location = new System.Drawing.Point(23, 289);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 17);
+            this.label3.Size = new System.Drawing.Size(41, 17);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Nombre de Piece";
+            this.label3.Text = "Statut";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label2.Location = new System.Drawing.Point(27, 219);
+            this.label2.Location = new System.Drawing.Point(23, 171);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 17);
+            this.label2.Size = new System.Drawing.Size(74, 17);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Surface";
-            // 
-            // rtbAdresse
-            // 
-            this.rtbAdresse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.rtbAdresse.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtbAdresse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.rtbAdresse.Location = new System.Drawing.Point(27, 116);
-            this.rtbAdresse.Name = "rtbAdresse";
-            this.rtbAdresse.Size = new System.Drawing.Size(207, 88);
-            this.rtbAdresse.TabIndex = 2;
-            this.rtbAdresse.Text = "Adresse";
-            // 
-            // txtSurface
-            // 
-            this.txtSurface.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.txtSurface.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSurface.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSurface.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtSurface.Location = new System.Drawing.Point(27, 251);
-            this.txtSurface.Multiline = true;
-            this.txtSurface.Name = "txtSurface";
-            this.txtSurface.Size = new System.Drawing.Size(207, 20);
-            this.txtSurface.TabIndex = 3;
-            this.txtSurface.Text = "Surface";
+            this.label2.Text = "Date Debut";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label5.Location = new System.Drawing.Point(27, 76);
+            this.label5.Location = new System.Drawing.Point(23, 116);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 17);
+            this.label5.Size = new System.Drawing.Size(57, 17);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Adresse";
+            this.label5.Text = "Montant";
+            // 
+            // duMontant
+            // 
+            this.duMontant.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.duMontant.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.duMontant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.duMontant.Location = new System.Drawing.Point(23, 144);
+            this.duMontant.Name = "duMontant";
+            this.duMontant.Size = new System.Drawing.Size(207, 16);
+            this.duMontant.TabIndex = 33;
+            this.duMontant.Text = "0";
+            // 
+            // dtpDateDebut
+            // 
+            this.dtpDateDebut.Location = new System.Drawing.Point(23, 199);
+            this.dtpDateDebut.Name = "dtpDateDebut";
+            this.dtpDateDebut.Size = new System.Drawing.Size(200, 20);
+            this.dtpDateDebut.TabIndex = 34;
+            // 
+            // dtpDateFin
+            // 
+            this.dtpDateFin.Location = new System.Drawing.Point(23, 258);
+            this.dtpDateFin.Name = "dtpDateFin";
+            this.dtpDateFin.Size = new System.Drawing.Size(200, 20);
+            this.dtpDateFin.TabIndex = 36;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
+            this.label6.Location = new System.Drawing.Point(23, 230);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 17);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "Date Fin";
+            // 
+            // cbStatut
+            // 
+            this.cbStatut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.cbStatut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbStatut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.cbStatut.FormattingEnabled = true;
+            this.cbStatut.Items.AddRange(new object[] {
+            "Selectionner",
+            "Disponible",
+            "Indisponible"});
+            this.cbStatut.Location = new System.Drawing.Point(23, 317);
+            this.cbStatut.Name = "cbStatut";
+            this.cbStatut.Size = new System.Drawing.Size(207, 21);
+            this.cbStatut.TabIndex = 37;
+            // 
+            // cbLocataire
+            // 
+            this.cbLocataire.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
+            this.cbLocataire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbLocataire.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.cbLocataire.FormattingEnabled = true;
+            this.cbLocataire.Items.AddRange(new object[] {
+            "Selectionner"});
+            this.cbLocataire.Location = new System.Drawing.Point(23, 437);
+            this.cbLocataire.Name = "cbLocataire";
+            this.cbLocataire.Size = new System.Drawing.Size(207, 21);
+            this.cbLocataire.TabIndex = 38;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
+            this.label4.Location = new System.Drawing.Point(23, 409);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 17);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Locataire";
+            // 
+            // btnPayer
+            // 
+            this.btnPayer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnPayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnPayer.Image = global::gestionDashboard.Properties.Resources.icons8_payer_24;
+            this.btnPayer.Location = new System.Drawing.Point(367, 76);
+            this.btnPayer.Name = "btnPayer";
+            this.btnPayer.Size = new System.Drawing.Size(74, 34);
+            this.btnPayer.TabIndex = 40;
+            this.btnPayer.Text = "Payer";
+            this.btnPayer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnPayer.UseVisualStyleBackColor = true;
+            this.btnPayer.Click += new System.EventHandler(this.btnPayer_Click);
+            // 
+            // btnChoisirLocation
+            // 
+            this.btnChoisirLocation.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(249)))));
+            this.btnChoisirLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChoisirLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(249)))));
+            this.btnChoisirLocation.Image = global::gestionDashboard.Properties.Resources.icons8_doigt_24;
+            this.btnChoisirLocation.Location = new System.Drawing.Point(263, 76);
+            this.btnChoisirLocation.Name = "btnChoisirLocation";
+            this.btnChoisirLocation.Size = new System.Drawing.Size(74, 34);
+            this.btnChoisirLocation.TabIndex = 10;
+            this.btnChoisirLocation.Text = "Choisir";
+            this.btnChoisirLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnChoisirLocation.UseVisualStyleBackColor = true;
+            this.btnChoisirLocation.Click += new System.EventHandler(this.btnChoisirLocation_Click);
+            // 
+            // btnModifierLocation
+            // 
+            this.btnModifierLocation.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(176)))), ((int)(((byte)(5)))));
+            this.btnModifierLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModifierLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(176)))), ((int)(((byte)(5)))));
+            this.btnModifierLocation.Image = global::gestionDashboard.Properties.Resources.icons8_modifier_24;
+            this.btnModifierLocation.Location = new System.Drawing.Point(138, 477);
+            this.btnModifierLocation.Name = "btnModifierLocation";
+            this.btnModifierLocation.Size = new System.Drawing.Size(92, 34);
+            this.btnModifierLocation.TabIndex = 8;
+            this.btnModifierLocation.Text = "Modifier";
+            this.btnModifierLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnModifierLocation.UseVisualStyleBackColor = true;
+            this.btnModifierLocation.Click += new System.EventHandler(this.btnModifierLocation_Click);
+            // 
+            // btnEnregistrerLocation
+            // 
+            this.btnEnregistrerLocation.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnEnregistrerLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnregistrerLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnEnregistrerLocation.Image = global::gestionDashboard.Properties.Resources.icons8_sauvegarder_24;
+            this.btnEnregistrerLocation.Location = new System.Drawing.Point(23, 477);
+            this.btnEnregistrerLocation.Name = "btnEnregistrerLocation";
+            this.btnEnregistrerLocation.Size = new System.Drawing.Size(92, 34);
+            this.btnEnregistrerLocation.TabIndex = 7;
+            this.btnEnregistrerLocation.Text = "Enregistrer";
+            this.btnEnregistrerLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnEnregistrerLocation.UseVisualStyleBackColor = true;
+            this.btnEnregistrerLocation.Click += new System.EventHandler(this.btnEnregistrerLocation_Click);
+            // 
+            // btnSupprimerLocation
+            // 
+            this.btnSupprimerLocation.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
+            this.btnSupprimerLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSupprimerLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
+            this.btnSupprimerLocation.Image = global::gestionDashboard.Properties.Resources.icons8_poubelle_24__1_;
+            this.btnSupprimerLocation.Location = new System.Drawing.Point(23, 522);
+            this.btnSupprimerLocation.Name = "btnSupprimerLocation";
+            this.btnSupprimerLocation.Size = new System.Drawing.Size(207, 34);
+            this.btnSupprimerLocation.TabIndex = 9;
+            this.btnSupprimerLocation.Text = "Supprimer";
+            this.btnSupprimerLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnSupprimerLocation.UseVisualStyleBackColor = true;
+            this.btnSupprimerLocation.Click += new System.EventHandler(this.btnSupprimerLocation_Click);
             // 
             // frmLocation
             // 
@@ -272,20 +312,23 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(765, 577);
             this.ControlBox = false;
-            this.Controls.Add(this.btnChoisir);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnModifier);
-            this.Controls.Add(this.btnEnregistrer);
-            this.Controls.Add(this.btnSupprimer);
-            this.Controls.Add(this.cbProprietaire);
+            this.Controls.Add(this.btnPayer);
+            this.Controls.Add(this.cbLocataire);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.duCapacite);
+            this.Controls.Add(this.cbStatut);
+            this.Controls.Add(this.dtpDateFin);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.dtpDateDebut);
+            this.Controls.Add(this.duMontant);
+            this.Controls.Add(this.btnChoisirLocation);
+            this.Controls.Add(this.dgLocation);
+            this.Controls.Add(this.btnModifierLocation);
+            this.Controls.Add(this.btnEnregistrerLocation);
+            this.Controls.Add(this.btnSupprimerLocation);
+            this.Controls.Add(this.cbAppartement);
             this.Controls.Add(this.Capacité);
-            this.Controls.Add(this.duNbrPiece);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rtbAdresse);
-            this.Controls.Add(this.txtSurface);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtRecherche);
@@ -293,7 +336,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLocation";
             this.Text = "frmLocation";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmLocation_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgLocation)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,20 +348,23 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtRecherche;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnChoisir;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnModifier;
-        private System.Windows.Forms.Button btnEnregistrer;
-        private System.Windows.Forms.Button btnSupprimer;
-        private System.Windows.Forms.ComboBox cbProprietaire;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DomainUpDown duCapacite;
+        private System.Windows.Forms.Button btnChoisirLocation;
+        private System.Windows.Forms.DataGridView dgLocation;
+        private System.Windows.Forms.Button btnModifierLocation;
+        private System.Windows.Forms.Button btnEnregistrerLocation;
+        private System.Windows.Forms.Button btnSupprimerLocation;
+        private System.Windows.Forms.ComboBox cbAppartement;
         private System.Windows.Forms.Label Capacité;
-        private System.Windows.Forms.DomainUpDown duNbrPiece;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox rtbAdresse;
-        private System.Windows.Forms.TextBox txtSurface;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DomainUpDown duMontant;
+        private System.Windows.Forms.DateTimePicker dtpDateDebut;
+        private System.Windows.Forms.DateTimePicker dtpDateFin;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cbStatut;
+        private System.Windows.Forms.ComboBox cbLocataire;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnPayer;
     }
 }

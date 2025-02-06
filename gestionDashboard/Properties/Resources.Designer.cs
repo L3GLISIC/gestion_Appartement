@@ -113,6 +113,26 @@ namespace gestionDashboard.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_annuler_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-annuler-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_annuler_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-annuler-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_appartement_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-appartement-48", resourceCulture);
@@ -216,6 +236,26 @@ namespace gestionDashboard.Properties {
         internal static System.Drawing.Bitmap icons8_paramètres_501 {
             get {
                 object obj = ResourceManager.GetObject("icons8-paramètres-501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_payer_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-payer-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_personne_à_la_maison_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-personne-à-la-maison-30", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

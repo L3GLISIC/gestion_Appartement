@@ -41,11 +41,13 @@ namespace gestionDashboard.views
             var appartement = db.appartements
                       .Select(a => new
                       {
+                          id = a.IdAppartement,
                           adresse = a.AdresseAppartement,
                           surface = a.Surface,
                           nbrPiece = a.NombrePiece,
                           capacite = a.Capacite,
-                          proprietaire = a.Proprietaire.Prenom + " " + a.Proprietaire.Nom
+                          proprietaire = a.Proprietaire.Prenom + " " + a.Proprietaire.Nom,
+                          idProprietaire = a.IdProprietaire
                       })
                       .ToList();
             dgAppartement.DataSource = appartement;
@@ -64,7 +66,7 @@ namespace gestionDashboard.views
                 float surface = float.Parse(txtSurface.Text.Trim());
                 int nbrPiece = int.Parse(nudNbrPiece.Text.Trim());
                 int capacite = int.Parse(nudCapacite.Text.Trim());
-                Proprietaire proprietaire = cbProprietaire.SelectedItem as Proprietaire;
+                int idProprietaire = (int)cbProprietaire.SelectedValue;
 
                 Boolean verif = check(adresse, surface, nbrPiece, capacite);
 
@@ -80,7 +82,7 @@ namespace gestionDashboard.views
                 a.Surface = surface;
                 a.NombrePiece = nbrPiece;
                 a.Capacite = capacite;
-                a.IdProprietaire = proprietaire.IdPersonne;
+                a.IdProprietaire = idProprietaire;
                 db.SaveChanges();
                 ResetForm();
                 MessageBox.Show("Appartement modifié avec succès !");
@@ -97,14 +99,14 @@ namespace gestionDashboard.views
             txtSurface.Text = dgAppartement.CurrentRow.Cells[2].Value.ToString();
             nudNbrPiece.Text = dgAppartement.CurrentRow.Cells[3].Value.ToString();
             nudCapacite.Text = dgAppartement.CurrentRow.Cells[4].Value.ToString();
-            cbProprietaire.Text = dgAppartement.CurrentRow.Cells[5].Value.ToString();
+            cbProprietaire.SelectedValue = dgAppartement.CurrentRow.Cells[6].Value;
         }
 
         private void btnSupprimer_Click(object sender, EventArgs e)
         {
             int id = int.Parse(dgAppartement.CurrentRow.Cells[0].Value.ToString());
-            var p = db.proprietaires.Find(id);
-            db.proprietaires.Remove(p);
+            var a = db.appartements.Find(id);
+            db.appartements.Remove(a);
             db.SaveChanges();
             ResetForm();
         }

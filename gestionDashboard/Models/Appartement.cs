@@ -22,6 +22,13 @@ namespace Gestion.Model
 
         [Required]
         public int Capacite { get; set; }
+
+        [Required]
+        public bool Disponiblite { get; set; } = true;
+
+        public int nbrLocataire { get; set; } = 0;
+
+        [Required]
         public int? IdProprietaire { get; set; }
 
         [ForeignKey("IdProprietaire")]

@@ -137,26 +137,7 @@ namespace gestionDashboard
             frm.Show();
         }
 
-        private void btnSettings_Click(object sender, EventArgs e)
-        {
-            pnlNav.Height = btnSettings.Height;
-            pnlNav.Top = btnSettings.Top;
-            pnlNav.Left = btnSettings.Left;
-            btnSettings.BackColor = Color.FromArgb(46, 51, 73);
-            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
-
-            this.pnlInterface.Controls.Clear();
-            frmSettings frm = new frmSettings()
-            {
-                Dock = DockStyle.Fill,
-                TopLevel = false,
-                TopMost = true,
-            };
-
-            frm.FormBorderStyle = FormBorderStyle.None;
-            this.pnlInterface.Controls.Add(frm);
-            frm.Show();
-        }
+        
 
         private void btnDeconnexion_Click(object sender, EventArgs e)
         {
@@ -185,12 +166,33 @@ namespace gestionDashboard
 
         private void btnSettings_Leave(object sender, EventArgs e)
         {
-            btnSettings.BackColor = Color.FromArgb(24, 30, 54);
+            btnLocataire.BackColor = Color.FromArgb(24, 30, 54);
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnLocataire_Click(object sender, EventArgs e)
+        {
+            pnlNav.Height = btnLocataire.Height;
+            pnlNav.Top = btnLocataire.Top;
+            pnlNav.Left = btnLocataire.Left;
+            btnLocataire.BackColor = Color.FromArgb(46, 51, 73);
+            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
+
+            this.pnlInterface.Controls.Clear();
+            frmLocataire frm = new frmLocataire()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true,
+            };
+
+            frm.FormBorderStyle = FormBorderStyle.None;
+            this.pnlInterface.Controls.Add(frm);
+            frm.Show();
         }
     }
 }

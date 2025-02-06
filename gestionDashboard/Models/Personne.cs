@@ -23,7 +23,6 @@ namespace Gestion.Model
         [Required, MaxLength(80), DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
-        [Required, MaxLength(13)]
-        public string CNI { get; set; }
+        
     }
 }

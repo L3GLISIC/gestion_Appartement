@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using gestionDashboard.Models;
 
 namespace Gestion.Model
 {
@@ -14,7 +15,10 @@ namespace Gestion.Model
         public int IdLocation { get; set; }
 
         [Required]
-        public int MontantLoyer { get; set; }
+        public string NumeroLocation { get; set; }
+
+        [Required]
+        public int MontantLocation { get; set; }
 
         [Required]
         public DateTime DateDebut { get; set; }
@@ -22,8 +26,7 @@ namespace Gestion.Model
         public DateTime? DateFin { get; set; }
 
         [Required]
-        public DateTime dateCreation { get; set; } = DateTime.Now;
-
+        public DateTime DateCreation { get; set; } = DateTime.Now;
 
         [Required]
         public bool Statut { get; set; } = true;
@@ -31,10 +34,15 @@ namespace Gestion.Model
         public int? IdAppartement { get; set; }
 
         [ForeignKey("IdAppartement")]
-        public virtual Appartement Appartement { get; set; } = new Appartement();
+        public virtual Appartement Appartement { get; set; }
 
-        public virtual ICollection<Locataire> Locataires { get; set; }
+        public int? IdLocataire { get; set; }
 
-        
+        [ForeignKey("IdLocataire")]
+        public virtual Locataire Locataire { get; set; }
+
+        public virtual ICollection<Paiement> Paiements { get; set; }
+
+
     }
 }

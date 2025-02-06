@@ -12,8 +12,10 @@ namespace Gestion.Model
     {
         public int? IdLocation { get; set; }
 
-        [ForeignKey("IdLocation")]
-        public virtual Location Location { get; set; } = new Location();
+        [Required, MaxLength(13)]
+        public string CNI { get; set; }
+
+        public virtual ICollection<Location> Locations { get; set; }
 
     }
 }

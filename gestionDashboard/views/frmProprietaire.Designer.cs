@@ -38,7 +38,6 @@
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.Capacité = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,7 +46,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTel = new System.Windows.Forms.TextBox();
-            this.txtCNI = new System.Windows.Forms.TextBox();
             this.txtNinea = new System.Windows.Forms.TextBox();
             this.txtRccm = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgProprietaire)).BeginInit();
@@ -102,6 +100,7 @@
             this.btnChoisir.Text = "Choisir";
             this.btnChoisir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnChoisir.UseVisualStyleBackColor = true;
+            this.btnChoisir.Click += new System.EventHandler(this.btnChoisir_Click);
             // 
             // dgProprietaire
             // 
@@ -119,7 +118,7 @@
             this.btnModifier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModifier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(176)))), ((int)(((byte)(5)))));
             this.btnModifier.Image = global::gestionDashboard.Properties.Resources.icons8_modifier_24;
-            this.btnModifier.Location = new System.Drawing.Point(141, 486);
+            this.btnModifier.Location = new System.Drawing.Point(141, 436);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(92, 34);
             this.btnModifier.TabIndex = 10;
@@ -134,7 +133,7 @@
             this.btnEnregistrer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnregistrer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
             this.btnEnregistrer.Image = global::gestionDashboard.Properties.Resources.icons8_sauvegarder_24;
-            this.btnEnregistrer.Location = new System.Drawing.Point(25, 486);
+            this.btnEnregistrer.Location = new System.Drawing.Point(25, 436);
             this.btnEnregistrer.Name = "btnEnregistrer";
             this.btnEnregistrer.Size = new System.Drawing.Size(92, 34);
             this.btnEnregistrer.TabIndex = 9;
@@ -149,7 +148,7 @@
             this.btnSupprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSupprimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
             this.btnSupprimer.Image = global::gestionDashboard.Properties.Resources.icons8_poubelle_24__1_;
-            this.btnSupprimer.Location = new System.Drawing.Point(25, 531);
+            this.btnSupprimer.Location = new System.Drawing.Point(25, 481);
             this.btnSupprimer.Name = "btnSupprimer";
             this.btnSupprimer.Size = new System.Drawing.Size(207, 34);
             this.btnSupprimer.TabIndex = 11;
@@ -163,7 +162,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label4.Location = new System.Drawing.Point(26, 407);
+            this.label4.Location = new System.Drawing.Point(26, 334);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 17);
             this.label4.TabIndex = 27;
@@ -174,29 +173,18 @@
             this.Capacité.AutoSize = true;
             this.Capacité.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Capacité.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.Capacité.Location = new System.Drawing.Point(26, 342);
+            this.Capacité.Location = new System.Drawing.Point(26, 271);
             this.Capacité.Name = "Capacité";
             this.Capacité.Size = new System.Drawing.Size(46, 17);
             this.Capacité.TabIndex = 25;
             this.Capacité.Text = "NINEA";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label3.Location = new System.Drawing.Point(26, 277);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 17);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "CNI";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label2.Location = new System.Drawing.Point(26, 147);
+            this.label2.Location = new System.Drawing.Point(26, 145);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 17);
             this.label2.TabIndex = 22;
@@ -208,7 +196,7 @@
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEmail.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtEmail.Location = new System.Drawing.Point(26, 178);
+            this.txtEmail.Location = new System.Drawing.Point(26, 175);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(207, 20);
@@ -268,7 +256,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label7.Location = new System.Drawing.Point(26, 212);
+            this.label7.Location = new System.Drawing.Point(26, 208);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 17);
             this.label7.TabIndex = 38;
@@ -280,25 +268,12 @@
             this.txtTel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTel.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtTel.Location = new System.Drawing.Point(26, 243);
+            this.txtTel.Location = new System.Drawing.Point(26, 238);
             this.txtTel.Multiline = true;
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(207, 20);
             this.txtTel.TabIndex = 5;
             this.txtTel.Text = "+221 70 000 00 00";
-            // 
-            // txtCNI
-            // 
-            this.txtCNI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.txtCNI.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCNI.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCNI.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtCNI.Location = new System.Drawing.Point(26, 308);
-            this.txtCNI.Multiline = true;
-            this.txtCNI.Name = "txtCNI";
-            this.txtCNI.Size = new System.Drawing.Size(207, 20);
-            this.txtCNI.TabIndex = 6;
-            this.txtCNI.Text = "cni";
             // 
             // txtNinea
             // 
@@ -306,7 +281,7 @@
             this.txtNinea.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNinea.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNinea.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtNinea.Location = new System.Drawing.Point(26, 373);
+            this.txtNinea.Location = new System.Drawing.Point(26, 301);
             this.txtNinea.Multiline = true;
             this.txtNinea.Name = "txtNinea";
             this.txtNinea.Size = new System.Drawing.Size(207, 20);
@@ -319,7 +294,7 @@
             this.txtRccm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRccm.Font = new System.Drawing.Font("Myanmar Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRccm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.txtRccm.Location = new System.Drawing.Point(26, 438);
+            this.txtRccm.Location = new System.Drawing.Point(26, 364);
             this.txtRccm.Multiline = true;
             this.txtRccm.Name = "txtRccm";
             this.txtRccm.Size = new System.Drawing.Size(207, 20);
@@ -335,7 +310,6 @@
             this.ControlBox = false;
             this.Controls.Add(this.txtRccm);
             this.Controls.Add(this.txtNinea);
-            this.Controls.Add(this.txtCNI);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtTel);
             this.Controls.Add(this.label6);
@@ -348,7 +322,6 @@
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Capacité);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label5);
@@ -377,7 +350,6 @@
         private System.Windows.Forms.Button btnSupprimer;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label Capacité;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label5;
@@ -386,7 +358,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTel;
-        private System.Windows.Forms.TextBox txtCNI;
         private System.Windows.Forms.TextBox txtNinea;
         private System.Windows.Forms.TextBox txtRccm;
     }

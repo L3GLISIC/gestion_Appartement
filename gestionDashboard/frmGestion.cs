@@ -194,5 +194,37 @@ namespace gestionDashboard
             this.pnlInterface.Controls.Add(frm);
             frm.Show();
         }
+
+        
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPaiements_Click(object sender, EventArgs e)
+        {
+            pnlNav.Height = btnPaiements.Height;
+            pnlNav.Top = btnPaiements.Top;
+            pnlNav.Left = btnPaiements.Left;
+            btnPaiements.BackColor = Color.FromArgb(46, 51, 73);
+            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
+            this.pnlInterface.Controls.Clear();
+            frmListePaiements frm = new frmListePaiements()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true,
+            };
+
+            frm.FormBorderStyle = FormBorderStyle.None;
+            this.pnlInterface.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnPaiements_Leave(object sender, EventArgs e)
+        {
+            btnPaiements.BackColor = Color.FromArgb(24, 30, 54);
+        }
     }
 }

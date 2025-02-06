@@ -89,3 +89,4 @@ C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionDashboard\gestionDashbo
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionDashboard\gestionDashboard\obj\Debug\gestionD.7A3211AF.Up2Date
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionDashboard\gestionDashboard\obj\Debug\gestionDashboard.views.frmLocataire.resources
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionDashboard\gestionDashboard\obj\Debug\gestionDashboard.views.frmPaiement.resources
+C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionDashboard\gestionDashboard\obj\Debug\gestionDashboard.views.frmListePaiements.resources

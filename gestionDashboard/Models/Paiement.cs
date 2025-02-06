@@ -29,12 +29,12 @@ namespace gestionDashboard.Models
         public int? IdLocation { get; set; }
 
         [ForeignKey("IdLocation")]
-        public virtual Location Location { get; set; } = new Location();
+        public virtual Location Location { get; set; }
 
         public int? IdModePaiement { get; set; }
 
         [ForeignKey("IdModePaiement")]
-        public virtual ModePaiement ModePaiement { get; set; } = new ModePaiement();
+        public virtual ModePaiement ModePaiement { get; set; }
 
 
     }

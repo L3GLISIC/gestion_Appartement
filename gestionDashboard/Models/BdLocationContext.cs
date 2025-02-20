@@ -24,6 +24,7 @@ namespace Gestion.Model
         public DbSet<Location> locations { get; set; }
         public DbSet<Paiement> paiements { get; set; }
         public DbSet<ModePaiement> modepaiements { get; set; }
+        public DbSet<Td_Erreur> td_Erreurs { get; set; }
 
 
 

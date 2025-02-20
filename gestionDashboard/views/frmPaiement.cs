@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Gestion.Model;
 using gestionDashboard.Models;
+using gestionDashboard.Utils;
 
 namespace gestionDashboard.views
 {
@@ -90,8 +91,21 @@ namespace gestionDashboard.views
 
                 db.paiements.Add(paiement);
                 db.SaveChanges();
+                Location loc = db.locations.Find(idLocation);
+                string Message = "";
+                Message = "Date : " + DateTime.Now.Day + "/" + DateTime.Now.Month + "/" + DateTime.Now.Year + " à " + DateTime.Now.Hour + "h:" + DateTime.Now.Minute + "mn" + ",vous avez effectuez un paiement de " + montant + " FCFA votre la location.";
+                if (statut == true)
+                {
+                    Message += "Statut: Complet.";
+                }
+                else
+                {
+                    Message += "Statut: IncompletRestant = " + (loc.MontantLocation - paiement.MontantPaiement) + " FCFA";
+                }
                 MessageBox.Show("Paiement enregistré avec succès !");
+                GMailer.sendMail(loc.Locataire.Email, "Confirmation Paiement", Message);
                 this.Close();
+
 
             }
             catch (Exception ex)

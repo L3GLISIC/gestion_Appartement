@@ -52,9 +52,9 @@ namespace gestionDashboard.views
 
             string numeroFacture = $"{prefixe}-{date}-{identifiantUnique}";
 
-            if (numeroFacture.Length > 10)
+            if (numeroFacture.Length > 50)
             {
-                numeroFacture = numeroFacture.Substring(0, 10);
+                numeroFacture = numeroFacture.Substring(0, 50);
             }
 
             return numeroFacture;

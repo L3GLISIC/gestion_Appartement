@@ -20,7 +20,7 @@ namespace gestionDashboard.Models
         [Required]
         public int MontantPaiement { get; set; }
 
-        [Required, MaxLength(10)]
+        [Required, MaxLength(50)]
         public string NumeroFacture { get; set; }
 
         [Required]

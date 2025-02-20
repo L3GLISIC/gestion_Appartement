@@ -39,6 +39,10 @@
     <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
       <HintPath>..\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -153,6 +157,8 @@
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -190,6 +196,22 @@
     <Compile Include="Models\Utilisateur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ReportPaiement.cs" />
+    <Compile Include="Report\ReportListeProprietaire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptListeProprietaire1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListeProprietaire.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPaiement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPaiement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Utils\GMailer.cs" />
     <Compile Include="Utils\Helper.cs" />
     <Compile Include="views\frmAppartement.cs">
@@ -228,6 +250,12 @@
     <Compile Include="views\frmPaiement.Designer.cs">
       <DependentUpon>frmPaiement.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\frmPrintListeProprietaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmPrintListeProprietaire.Designer.cs">
+      <DependentUpon>frmPrintListeProprietaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\frmProprietaire.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +281,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report\rptListeProprietaire.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListeProprietaire1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPaiement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPaiement.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\frmAppartement.resx">
       <DependentUpon>frmAppartement.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmPaiement.resx">
       <DependentUpon>frmPaiement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmPrintListeProprietaire.resx">
+      <DependentUpon>frmPrintListeProprietaire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmProprietaire.resx">
       <DependentUpon>frmProprietaire.cs</DependentUpon>
@@ -368,6 +407,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-payer-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

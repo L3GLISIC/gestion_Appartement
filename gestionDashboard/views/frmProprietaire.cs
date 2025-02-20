@@ -156,5 +156,17 @@ namespace gestionDashboard.views
             txtRccm.Text = dgProprietaire.CurrentRow.Cells[6].Value.ToString();
 
         }
+
+        private void btnImprimer_Click(object sender, EventArgs e)
+        {
+            frmPrintListeProprietaire f = new frmPrintListeProprietaire();
+            f.Show();
+            this.Enabled = false;
+        }
+
+        public void Activer()
+        {
+            this.Enabled = true;
+        }
     }
 }

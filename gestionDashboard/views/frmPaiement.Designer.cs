@@ -41,9 +41,10 @@
             this.duMontantPaiement.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.duMontantPaiement.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.duMontantPaiement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.duMontantPaiement.Location = new System.Drawing.Point(37, 57);
+            this.duMontantPaiement.Location = new System.Drawing.Point(56, 88);
+            this.duMontantPaiement.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.duMontantPaiement.Name = "duMontantPaiement";
-            this.duMontantPaiement.Size = new System.Drawing.Size(207, 16);
+            this.duMontantPaiement.Size = new System.Drawing.Size(310, 22);
             this.duMontantPaiement.TabIndex = 35;
             this.duMontantPaiement.Text = "0";
             // 
@@ -52,9 +53,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label5.Location = new System.Drawing.Point(37, 32);
+            this.label5.Location = new System.Drawing.Point(56, 49);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 17);
+            this.label5.Size = new System.Drawing.Size(88, 28);
             this.label5.TabIndex = 34;
             this.label5.Text = "Montant";
             // 
@@ -63,9 +65,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(151)))), ((int)(((byte)(176)))));
-            this.label1.Location = new System.Drawing.Point(37, 81);
+            this.label1.Location = new System.Drawing.Point(56, 125);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 17);
+            this.label1.Size = new System.Drawing.Size(149, 28);
             this.label1.TabIndex = 36;
             this.label1.Text = "Mode Paiement";
             // 
@@ -77,9 +80,10 @@
             this.cbModePaiement.FormattingEnabled = true;
             this.cbModePaiement.Items.AddRange(new object[] {
             "Selectionner"});
-            this.cbModePaiement.Location = new System.Drawing.Point(37, 106);
+            this.cbModePaiement.Location = new System.Drawing.Point(56, 163);
+            this.cbModePaiement.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbModePaiement.Name = "cbModePaiement";
-            this.cbModePaiement.Size = new System.Drawing.Size(207, 21);
+            this.cbModePaiement.Size = new System.Drawing.Size(308, 28);
             this.cbModePaiement.TabIndex = 37;
             // 
             // btnEnregistrerLocation
@@ -88,9 +92,10 @@
             this.btnEnregistrerLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnregistrerLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
             this.btnEnregistrerLocation.Image = global::gestionDashboard.Properties.Resources.icons8_payer_24;
-            this.btnEnregistrerLocation.Location = new System.Drawing.Point(37, 161);
+            this.btnEnregistrerLocation.Location = new System.Drawing.Point(56, 248);
+            this.btnEnregistrerLocation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEnregistrerLocation.Name = "btnEnregistrerLocation";
-            this.btnEnregistrerLocation.Size = new System.Drawing.Size(92, 34);
+            this.btnEnregistrerLocation.Size = new System.Drawing.Size(138, 52);
             this.btnEnregistrerLocation.TabIndex = 38;
             this.btnEnregistrerLocation.Text = "Valider";
             this.btnEnregistrerLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -103,9 +108,10 @@
             this.btnSupprimerLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSupprimerLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
             this.btnSupprimerLocation.Image = global::gestionDashboard.Properties.Resources.icons8_annuler_25;
-            this.btnSupprimerLocation.Location = new System.Drawing.Point(152, 161);
+            this.btnSupprimerLocation.Location = new System.Drawing.Point(228, 248);
+            this.btnSupprimerLocation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSupprimerLocation.Name = "btnSupprimerLocation";
-            this.btnSupprimerLocation.Size = new System.Drawing.Size(92, 34);
+            this.btnSupprimerLocation.Size = new System.Drawing.Size(138, 52);
             this.btnSupprimerLocation.TabIndex = 39;
             this.btnSupprimerLocation.Text = "Annuler";
             this.btnSupprimerLocation.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -114,10 +120,10 @@
             // 
             // frmPaiement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(283, 225);
+            this.ClientSize = new System.Drawing.Size(424, 346);
             this.Controls.Add(this.btnEnregistrerLocation);
             this.Controls.Add(this.btnSupprimerLocation);
             this.Controls.Add(this.cbModePaiement);
@@ -125,6 +131,7 @@
             this.Controls.Add(this.duMontantPaiement);
             this.Controls.Add(this.label5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmPaiement";
             this.Text = "frmPaiement";
             this.ResumeLayout(false);

@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Gestion.Model;
+using gestionDashboard.Models;
 
 namespace gestionDashboard.views
 {
@@ -23,17 +24,17 @@ namespace gestionDashboard.views
 
         BdLocationContext db = new BdLocationContext();
 
-        private Boolean check(string prenom, string nom, string email, string telephone, string cni)
+        private Erreur check(string prenom, string nom, string email, string telephone, string cni)
         {
 
-            if (string.IsNullOrWhiteSpace(prenom)) return false;
-            if (string.IsNullOrWhiteSpace(nom)) return false;
-            if (string.IsNullOrWhiteSpace(email) || !Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$")) return false;
-            if (string.IsNullOrWhiteSpace(telephone) || !Regex.IsMatch(telephone, @"^(77|78|76|75|70)\d{7}$")) return false;
-            if (string.IsNullOrWhiteSpace(cni) || cni.Length != 13 || !Regex.IsMatch(cni, @"^\d{13}$")) return false;
-            
+            if (string.IsNullOrWhiteSpace(prenom)) return new Erreur("Veuillez remplir le prénom", false); 
+            if (string.IsNullOrWhiteSpace(nom)) return new Erreur("Veuillez remplir le nom", false);
+            if (string.IsNullOrWhiteSpace(email) || !Regex.IsMatch(email, @"^[^@\s]+@gmail\.com$")) return new Erreur("L'email n'est pas valide", false);
+            if (string.IsNullOrWhiteSpace(telephone) || !Regex.IsMatch(telephone, @"^(77|78|76|75|70)\d{7}$")) return new Erreur("Le numéro de téléphone n'est pas valide (77|78|76|75|700000000)", false); ;
+            if (string.IsNullOrWhiteSpace(cni) || cni.Length != 13 || !Regex.IsMatch(cni, @"^\d{13}$")) return new Erreur("Le CNI doit contenir 13 chiffres", false);
 
-            return true;
+
+            return new Erreur("Ok", true);
         }
 
         private void ResetForm()
@@ -83,11 +84,11 @@ namespace gestionDashboard.views
                 string telephone = txtTel.Text.Trim();
                 string cni = txtCNI.Text.Trim();
 
-                Boolean verif = check(prenom, nom, email, telephone, cni);
+                Erreur verif = check(prenom, nom, email, telephone, cni);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 
@@ -156,11 +157,11 @@ namespace gestionDashboard.views
                 string telephone = txtTel.Text.Trim();
                 string cni = txtCNI.Text.Trim();
 
-                Boolean verif = check(prenom, nom, email, telephone, cni);
+                Erreur verif = check(prenom, nom, email, telephone, cni);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 

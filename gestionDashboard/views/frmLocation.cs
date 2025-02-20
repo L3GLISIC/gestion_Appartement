@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Gestion.Model;
+using gestionDashboard.Models;
 
 namespace gestionDashboard.views
 {
@@ -48,21 +49,21 @@ namespace gestionDashboard.views
 
         }
 
-        private Boolean check(int montant, DateTime debut, DateTime fin)
+        private Erreur check(int montant, DateTime debut, DateTime fin)
         {
             if (montant <= 0)
             {
-                return false;
+                return new Erreur("le montant ne doit pas etre inférieure ou égale à 0", false); ;
             }
 
             if (debut >= fin)
             {
-                return false;
+                return new Erreur("la date de debut ne doit pas etre supérieure ou égale à la date de fin", false); ;
             }
 
       
 
-            return true;
+            return new Erreur("ok", true); ;
         }
 
 
@@ -121,11 +122,11 @@ namespace gestionDashboard.views
                 int idAppartement = (int)cbAppartement.SelectedValue;
 
 
-                Boolean verif = check(montant, debut, fin);
+                Erreur verif = check(montant, debut, fin);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 
@@ -161,11 +162,11 @@ namespace gestionDashboard.views
                 int idLocataire = (int)cbLocataire.SelectedValue;
 
 
-                Boolean verif = check(montant, debut, fin);
+                Erreur verif = check(montant, debut, fin);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 
@@ -190,7 +191,7 @@ namespace gestionDashboard.views
                 appartement.nbrLocataire += 1;
                 db.SaveChanges();
                 ResetForm();
-                MessageBox.Show("Location ajouté avec succès !"); 
+                MessageBox.Show("Location modifié avec succès !"); 
 
             }
             catch (Exception ex)

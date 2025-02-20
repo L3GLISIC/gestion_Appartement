@@ -9,10 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Gestion.Model;
+using gestionDashboard.Models;
+
+
 
 namespace gestionDashboard.views
+
 {
-    public partial class frmAppartement : Form
+    
+public partial class frmAppartement : Form
     {
         public frmAppartement()
         {
@@ -21,14 +26,16 @@ namespace gestionDashboard.views
 
         BdLocationContext db = new BdLocationContext();
 
-        private Boolean check(string adresse, float surface, int nbrPiece, int capacite)
-        {
-            if (string.IsNullOrWhiteSpace(adresse)) return false;
-            if (surface <= 0) return false;
-            if (nbrPiece <= 0) return false;
-            if (capacite <= 0) return false;
 
-            return true;
+
+        private Erreur check(string adresse, float surface, int nbrPiece, int capacite)
+        {
+            if (string.IsNullOrWhiteSpace(adresse)) return new Erreur("l'adresse ne doit pas être nulle.", false );
+            if (surface <= 0) return new Erreur("la surface ne doit pas etre inférieure ou égale à 0", false);
+            if (nbrPiece <= 0) return new Erreur("le nombre de piece ne doit pas etre inférieure ou égale à 0", false);
+            if (capacite <= 0) return new Erreur("la capacité ne doit pas etre inférieure ou égale à 0", false);
+
+            return new Erreur("Ok", true); ;
         }
 
         private void ResetForm()
@@ -68,11 +75,11 @@ namespace gestionDashboard.views
                 int capacite = int.Parse(nudCapacite.Text.Trim());
                 int idProprietaire = (int)cbProprietaire.SelectedValue;
 
-                Boolean verif = check(adresse, surface, nbrPiece, capacite);
+                Erreur verif = check(adresse, surface, nbrPiece, capacite);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 
@@ -144,11 +151,11 @@ namespace gestionDashboard.views
                 int capacite = int.Parse(nudCapacite.Text.Trim());
                 Proprietaire proprietaire = cbProprietaire.SelectedItem as Proprietaire;
 
-                Boolean verif = check(adresse, surface, nbrPiece, capacite);
+                Erreur verif = check(adresse, surface, nbrPiece, capacite);
 
-                if (!verif)
+                if (!verif.Valeur)
                 {
-                    MessageBox.Show("Veuillez remplir tous les champs obligatoires !");
+                    MessageBox.Show(verif.Message);
                     return;
                 }
 

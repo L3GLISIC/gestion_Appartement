@@ -64,6 +64,10 @@ namespace gestionDashboard.views
             try
             {
                 int montant = int.Parse(duMontantPaiement.Text);
+                if (montant <= 0) {
+                    MessageBox.Show("Le montant doit être supérieur à 0");
+                    return;
+                }
                 int idModePaiement = int.Parse(cbModePaiement.SelectedValue.ToString());
                 DateTime datePaiement = DateTime.Now;
                 string numeroFacture = GenererNumeroFacture();

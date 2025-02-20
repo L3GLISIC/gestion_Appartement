@@ -46,6 +46,7 @@
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.nudNbrPiece = new System.Windows.Forms.NumericUpDown();
             this.nudCapacite = new System.Windows.Forms.NumericUpDown();
+            this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             ((System.ComponentModel.ISupportInitialize)(this.dgAppartement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudNbrPiece)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCapacite)).BeginInit();
@@ -325,5 +326,6 @@
         private System.Windows.Forms.Button btnChoisir;
         private System.Windows.Forms.NumericUpDown nudNbrPiece;
         private System.Windows.Forms.NumericUpDown nudCapacite;
+        private System.DirectoryServices.DirectoryEntry directoryEntry1;
     }
 }

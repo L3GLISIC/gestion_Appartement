@@ -51,7 +51,7 @@ namespace gestionDashboard.views
             }
             if(identifiant.Length > 20)
             {
-                return new Erreur("L'identifiant ne doit pas dépasser 20 caractères", false);
+                return new Erreur("L'identifiant ne doit pas dépasser 20 caractères.", false);
             }
 
             if (string.IsNullOrEmpty(nom))

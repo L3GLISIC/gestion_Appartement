@@ -220,6 +220,12 @@
     <Compile Include="views\frmAppartement.Designer.cs">
       <DependentUpon>frmAppartement.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\frmConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmConnexion.Designer.cs">
+      <DependentUpon>frmConnexion.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\frmDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,12 @@
     </Compile>
     <Compile Include="views\frmLocation.Designer.cs">
       <DependentUpon>frmLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\FrmModifierPaiement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\FrmModifierPaiement.Designer.cs">
+      <DependentUpon>FrmModifierPaiement.cs</DependentUpon>
     </Compile>
     <Compile Include="views\frmPaiement.cs">
       <SubType>Form</SubType>
@@ -268,6 +280,12 @@
     <Compile Include="views\frmSettings.Designer.cs">
       <DependentUpon>frmSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\frmUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmUtilisateur.Designer.cs">
+      <DependentUpon>frmUtilisateur.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmGestion.resx">
       <DependentUpon>frmGestion.cs</DependentUpon>
     </EmbeddedResource>
@@ -292,6 +310,9 @@
     <EmbeddedResource Include="views\frmAppartement.resx">
       <DependentUpon>frmAppartement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="views\frmConnexion.resx">
+      <DependentUpon>frmConnexion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\frmDashBoard.resx">
       <DependentUpon>frmDashBoard.cs</DependentUpon>
     </EmbeddedResource>
@@ -304,6 +325,9 @@
     <EmbeddedResource Include="views\frmLocation.resx">
       <DependentUpon>frmLocation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="views\FrmModifierPaiement.resx">
+      <DependentUpon>FrmModifierPaiement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\frmPaiement.resx">
       <DependentUpon>frmPaiement.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmSettings.resx">
       <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmUtilisateur.resx">
+      <DependentUpon>frmUtilisateur.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -410,6 +437,15 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-utilisateur-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-supprimer-des-amis-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-unfriend-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

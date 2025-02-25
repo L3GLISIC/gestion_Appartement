@@ -13,7 +13,7 @@ namespace gestionDashboard.Models
         [Required, MaxLength(20)]
         public string Identifiant { get; set; }
 
-        [Required, MaxLength(20)]
+        [Required, MinLength(8)]
         public string MotDePasse { get; set; }
 
         [Required]

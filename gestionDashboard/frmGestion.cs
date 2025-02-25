@@ -197,10 +197,7 @@ namespace gestionDashboard
 
         
 
-        private void btnSettings_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnPaiements_Click(object sender, EventArgs e)
         {
@@ -225,6 +222,31 @@ namespace gestionDashboard
         private void btnPaiements_Leave(object sender, EventArgs e)
         {
             btnPaiements.BackColor = Color.FromArgb(24, 30, 54);
+        }
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            pnlNav.Height = btnUsers.Height;
+            pnlNav.Top = btnUsers.Top;
+            pnlNav.Left = btnUsers.Left;
+            btnUsers.BackColor = Color.FromArgb(46, 51, 73);
+            btnDashboard.BackColor = Color.FromArgb(24, 30, 54);
+            this.pnlInterface.Controls.Clear();
+            frmUtilisateur frm = new frmUtilisateur()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true,
+            };
+
+            frm.FormBorderStyle = FormBorderStyle.None;
+            this.pnlInterface.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void btnUsers_Leave(object sender, EventArgs e)
+        {
+            btnUsers.BackColor = Color.FromArgb(24, 30, 54);
         }
     }
 }

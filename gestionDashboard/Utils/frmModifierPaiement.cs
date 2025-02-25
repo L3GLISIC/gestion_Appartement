@@ -118,25 +118,5 @@ namespace gestionDashboard.views
         {
             this.Close();
         }
-
-        private void duMontantPaiement_SelectedItemChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbModePaiement_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

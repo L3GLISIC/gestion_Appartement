@@ -50,5 +50,26 @@ namespace gestionDashboard.views
             this.Enabled = true;
         }
 
+        private void btnChoisir_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(dgPaiements.CurrentRow.Cells[0].Value.ToString());
+            var paiement = db.paiements.Find(id);
+            if(paiement.Location.MontantLocation - paiement.MontantPaiement >= 0)
+            {
+                FrmModifierPaiement f = new FrmModifierPaiement(paiement);
+                f.ShowDialog();
+
+            }
+            else
+            {
+                MessageBox.Show("Le paiement est déjà complet");
+            }
+
+        }
+
+        private void dgPaiements_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

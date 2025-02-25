@@ -41,7 +41,7 @@ namespace gestionDashboard.views
             cbModePaiement.DisplayMember = "libelle";
             cbModePaiement.ValueMember = "Id";
         }
-
+        
         public string GenererNumeroFacture()
         {
             string prefixe = "FACT";
@@ -104,6 +104,17 @@ namespace gestionDashboard.views
                 }
                 MessageBox.Show("Paiement enregistré avec succès !");
                 GMailer.sendMail(loc.Locataire.Email, "Confirmation Paiement", Message);
+
+                // Appeler la méthode RefreshPaiements du formulaire parent (frmListePaiements)
+                foreach (Form form in Application.OpenForms)
+                {
+                    if (form is frmListePaiements listePaiementForm)
+                    {
+                        listePaiementForm.RefreshPaiements(); // Actualiser les paiements
+                        break;
+                    }
+                }
+
                 this.Close();
 
 

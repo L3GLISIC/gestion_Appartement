@@ -66,6 +66,20 @@ namespace gestionDashboard.views
 
                 db.SaveChanges();
                 MessageBox.Show("Paiement modifié avec succès !");
+                frmListePaiements frm = new frmListePaiements();
+
+                // Appeler la méthode RefreshPaiements du formulaire parent (frmListePaiements)
+                foreach (Form form in Application.OpenForms)
+                {
+                    if (form is frmListePaiements listePaiementForm)
+                    {
+                        listePaiementForm.RefreshPaiements(); 
+                        break;
+                    }
+                }
+
+
+                this.Close();
             }
             catch(Exception ex)
             {

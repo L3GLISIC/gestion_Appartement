@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dgPaiements = new System.Windows.Forms.DataGridView();
             this.btnImprimer = new System.Windows.Forms.Button();
+            this.btnCompletePaiment = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgPaiements)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,12 +104,29 @@
             this.btnImprimer.UseVisualStyleBackColor = true;
             this.btnImprimer.Click += new System.EventHandler(this.btnImprimer_Click);
             // 
+            // btnCompletePaiment
+            // 
+            this.btnCompletePaiment.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnCompletePaiment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompletePaiment.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btnCompletePaiment.Image = global::gestionDashboard.Properties.Resources.icons8_doigt_24;
+            this.btnCompletePaiment.Location = new System.Drawing.Point(254, 134);
+            this.btnCompletePaiment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCompletePaiment.Name = "btnCompletePaiment";
+            this.btnCompletePaiment.Size = new System.Drawing.Size(138, 52);
+            this.btnCompletePaiment.TabIndex = 42;
+            this.btnCompletePaiment.Text = "Complter Paiement";
+            this.btnCompletePaiment.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCompletePaiment.UseVisualStyleBackColor = true;
+            this.btnCompletePaiment.Click += new System.EventHandler(this.btnCompletePaiment_Click);
+            // 
             // frmListePaiements
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1148, 762);
+            this.Controls.Add(this.btnCompletePaiment);
             this.Controls.Add(this.btnImprimer);
             this.Controls.Add(this.dgPaiements);
             this.Controls.Add(this.btnClear);
@@ -132,5 +150,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgPaiements;
         private System.Windows.Forms.Button btnImprimer;
+        private System.Windows.Forms.Button btnCompletePaiment;
     }
 }

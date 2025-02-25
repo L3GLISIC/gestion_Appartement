@@ -102,6 +102,7 @@ namespace gestionDashboard.views
                 {
                     Message += "Statut: IncompletRestant = " + (loc.MontantLocation - paiement.MontantPaiement) + " FCFA";
                 }
+
                 MessageBox.Show("Paiement enregistré avec succès !");
                 GMailer.sendMail(loc.Locataire.Email, "Confirmation Paiement", Message);
                 this.Close();

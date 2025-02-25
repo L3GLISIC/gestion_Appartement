@@ -22,6 +22,7 @@ namespace Gestion.Model
         public DbSet<Administrateur> administrateurs { get; set; }
         public DbSet<Appartement> appartements { get; set; }
         public DbSet<Location> locations { get; set; }
+        public object Locations { get; internal set; }
         public DbSet<Paiement> paiements { get; set; }
         public DbSet<ModePaiement> modepaiements { get; set; }
         public DbSet<Td_Erreur> td_Erreurs { get; set; }

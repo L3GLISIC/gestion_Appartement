@@ -313,3 +313,5 @@ C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_App
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.views.FrmModifierPaiement.resources
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.views.frmConnexion.resources
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.views.frmUtilisateur.resources
+C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_Appartement\gestionDashboard\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\gestion_Appartement\gestionDashboard\bin\Debug\Newtonsoft.Json.xml

@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using Gestion.Model;
 using gestionDashboard.Models;
 using gestionDashboard.Utils;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace gestionDashboard.views
 {
@@ -129,7 +130,7 @@ namespace gestionDashboard.views
         
         }
 
-        private void btnEnregistrerUtilisateur_Click(object sender, EventArgs e)
+        private async void btnEnregistrerUtilisateur_Click(object sender, EventArgs e)
         {
             using (MD5 md5Hash = MD5.Create())
             {
@@ -144,7 +145,7 @@ namespace gestionDashboard.views
                 ut.Nom = txtNom.Text;
                 ut.Prenom = txtPrenom.Text;
                 ut.Email = txtEmail.Text;
-                ut.Telephone = txtTel.Text;
+                ut.Telephone = "+221" + txtTel.Text;
                 ut.Identifiant = txtIdentifiant.Text;
                 
                 ut.MotDePasse = CryptApp.GetMd5Hash(md5Hash, pwd);
@@ -152,7 +153,9 @@ namespace gestionDashboard.views
                 db.SaveChanges();
                 MessageBox.Show("Compte crée avec succes");
                 ResetForm();
-                GMailer.sendMail(ut.Email, "Création de compte", $"Bonjour {ut.Prenom} {ut.Nom},\nVotre compte a été créé avec succès.\nIdentifiant: {ut.Identifiant}\nMot de passe: {pwd}.\nVeuillez changer votre mot de passe à votre premier connexion");
+                string message = $"Création de compte\n, Bonjour {ut.Prenom} {ut.Nom},\\nVotre compte a été créé avec succès.\\nIdentifiant: {ut.Identifiant}\\nMot de passe: {pwd}.\\nVeuillez changer votre mot de passe à votre premier connexion";
+                GMailer.sendMail(ut.Email, "Création de compte", message);
+                await Whatsapp.SendWhatsappMessage(ut.Telephone, message);
 
             }
 

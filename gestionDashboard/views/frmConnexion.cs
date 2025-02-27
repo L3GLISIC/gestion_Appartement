@@ -73,7 +73,7 @@ namespace gestionDashboard.views
             }
             catch (Exception ex)
             {
-                //todo:  log
+                MessageBox.Show("Erreur: " + ex.Message);
             }
 
         }

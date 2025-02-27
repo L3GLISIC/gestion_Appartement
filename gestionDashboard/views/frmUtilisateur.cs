@@ -107,7 +107,7 @@ namespace gestionDashboard.views
             const string upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const string lowerCase = "abcdefghijklmnopqrstuvwxyz";
             const string digits = "0123456789";
-            const string specialChars = "!@#$%^&*()-_=+";
+            const string specialChars = "@#";
 
             Random random = new Random();
 
@@ -153,7 +153,20 @@ namespace gestionDashboard.views
                 db.SaveChanges();
                 MessageBox.Show("Compte crée avec succes");
                 ResetForm();
-                string message = $"Création de compte\n, Bonjour {ut.Prenom} {ut.Nom},\\nVotre compte a été créé avec succès.\\nIdentifiant: {ut.Identifiant}\\nMot de passe: {pwd}.\\nVeuillez changer votre mot de passe à votre premier connexion";
+                string message = $@"
+                    Bonjour {ut.Prenom} {ut.Nom},
+
+                    Votre compte a été créé avec succès.
+
+                    Identifiant : {ut.Identifiant}
+                    Mot de passe : {pwd}
+
+                    Veuillez changer votre mot de passe lors de votre première connexion.
+
+                    Cordialement,
+                    L'équipe de gestion
+                    ";
+
                 GMailer.sendMail(ut.Email, "Création de compte", message);
                 await Whatsapp.SendWhatsappMessage(ut.Telephone, message);
 

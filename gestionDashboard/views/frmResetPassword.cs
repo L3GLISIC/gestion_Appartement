@@ -77,6 +77,7 @@ namespace gestionDashboard.views
                         }
 
                         frmGestion f = new frmGestion();
+                        Whatsapp.SendWhatsappMessage(leUser.Telephone, "Votre mot de passe a été réinitialisé avec succès." + txtPwd.Text);
                         f.Show();
                         this.Close();
                     }

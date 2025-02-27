@@ -18,6 +18,7 @@ namespace gestionDashboard
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmConnexion());
+            //Application.Run(new frmGestion());
         }
     }
 }

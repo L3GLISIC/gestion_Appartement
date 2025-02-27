@@ -57,8 +57,8 @@ namespace gestionDashboard.Utils
         {
             try
             {
-                GMailer.GmailUsername = "aliou.18.ndour@gmail.com";//System.Configuration.ConfigurationManager.AppSettings["Email"];
-                GMailer.GmailPassword = "lzgt jtok qwld jfsx";//System.Configuration.ConfigurationManager.AppSettings["PasswordEmail"];
+                GMailer.GmailUsername = "souleymanefallpro@gmail.com";//System.Configuration.ConfigurationManager.AppSettings["Email"];
+                GMailer.GmailPassword = "cwtv tvto xtid lkie";//System.Configuration.ConfigurationManager.AppSettings["PasswordEmail"];
 
                 GMailer mailer = new GMailer();
                 mailer.ToEmail = destinataire;
@@ -69,7 +69,7 @@ namespace gestionDashboard.Utils
             }
             catch (Exception ex)
             {
-                Helper.WriteLogSystem(ex.ToString() ,"GMailer-sendMail");
+                Helper.WriteLogSystem(ex.ToString(), "GMailer-sendMail");
             }
         }
     }

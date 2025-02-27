@@ -50,7 +50,6 @@
             this.txtConfirmePwd.PasswordChar = '*';
             this.txtConfirmePwd.Size = new System.Drawing.Size(310, 31);
             this.txtConfirmePwd.TabIndex = 2;
-            this.txtConfirmePwd.UseSystemPasswordChar = true;
             this.txtConfirmePwd.TextChanged += new System.EventHandler(this.txtPwd_TextChanged);
             // 
             // label4

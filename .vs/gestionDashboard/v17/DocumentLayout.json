@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\admin\\source\\repos\\gestion_appartement\\gestiondashboard\\utils\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -181,7 +181,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -189,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Helper.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\Helper.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Utils\\Helper.cs",
@@ -201,12 +201,33 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmResetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA3wDwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:27:22.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "frmConnexion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:26:54.561Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmGestion.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\frmGestion.cs",
@@ -218,18 +239,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmAppartement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmAppartement.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmAppartement.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frmResetPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T14:13:30.961Z"
+              "WhenOpened": "2025-02-27T13:27:16.668Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GMailer.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\GMailer.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Utils\\GMailer.cs",
@@ -241,19 +263,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmResetPassword.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAA3wDwAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "frmAppartement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmAppartement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmAppartement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T13:27:22.732Z"
+              "WhenOpened": "2025-02-27T14:13:30.961Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "frmDashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmDashBoard.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmDashBoard.cs",
@@ -264,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "frmSettings.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmSettings.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmSettings.cs",
@@ -275,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Program.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Program.cs",
@@ -287,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "frmGestion.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\frmGestion.cs",
@@ -298,18 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmConnexion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T13:26:54.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "frmConnexion.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
@@ -317,11 +331,12 @@
               "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAxwCIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T13:27:03.947Z"
+              "WhenOpened": "2025-02-27T13:27:03.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BdLocationContext.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\BdLocationContext.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\BdLocationContext.cs",
@@ -333,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Personne.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Personne.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Personne.cs",
@@ -345,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Utilisateur.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Utilisateur.cs",
@@ -357,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "frmUtilisateur.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.Designer.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.Designer.cs",
@@ -370,17 +385,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "frmResetPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T13:27:16.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\App.config",
               "RelativeDocumentMoniker": "gestionDashboard\\App.config",
@@ -388,11 +392,12 @@
               "RelativeToolTip": "gestionDashboard\\App.config",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-06T14:08:14.268Z"
+              "WhenOpened": "2025-02-06T14:08:14.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "frmUtilisateur.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.cs",

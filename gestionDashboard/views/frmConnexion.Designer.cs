@@ -63,7 +63,6 @@
             this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(310, 31);
             this.txtPwd.TabIndex = 2;
-            this.txtPwd.UseSystemPasswordChar = true;
             // 
             // label4
             // 

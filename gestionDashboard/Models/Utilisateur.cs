@@ -16,8 +16,9 @@ namespace gestionDashboard.Models
         [Required, MinLength(8)]
         public string MotDePasse { get; set; }
 
-        [Required]
-        public bool Statut { get; set; } = true;
+
+        public string Statut { get; set; }
+
 
 
 

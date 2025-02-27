@@ -1,141 +1,173 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\models\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\utils\\whatsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\whatsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\utils\\gmailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\gmailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\utils\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\admin\\source\\repos\\gestion_appartement\\gestiondashboard\\utils\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\frmgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\utils\\gmailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\gmailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\frmgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\frmgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\frmgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\frmgestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmappartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmappartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|c:\\users\\julesbest\\documents\\informatique\\l3gl\\c#\\gestionappartement\\gestion_appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\report\\rptlisteproprietaire.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\report\\rptlisteproprietaire.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\report\\rptlisteproprietaire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\report\\rptlisteproprietaire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\bdlocationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\bdlocationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\bdlocationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\td_erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmutilisateur.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmutilisateur.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmresetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\utils\\whatsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\utils\\whatsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmmodifierpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlistepaiements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmpaiement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmlocataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\report\\rptlisteproprietaire.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\report\\rptlisteproprietaire.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\report\\rptlisteproprietaire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\report\\rptlisteproprietaire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmprintlisteproprietaire.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmprintlisteproprietaire.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\td_erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\td_erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\appartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\appartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\appartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\views\\frmappartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\views\\frmappartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\views\\frmappartement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\erreur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestiondashboard\\models\\locataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestiondashboard\\models\\locataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B737286E-24D4-4F65-8EBC-65C36BC59598}|gestionDashboard\\gestionDashboard.csproj|solutionrelative:gestiondashboard\\models\\locataire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -149,302 +181,406 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Whatsapp.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\Whatsapp.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Utils\\Whatsapp.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\Whatsapp.cs",
-              "RelativeToolTip": "gestionDashboard\\Utils\\Whatsapp.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwCcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:58:56.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmListePaiements.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmListePaiements.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmListePaiements.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwBMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:22:30.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmModifierPaiement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\FrmModifierPaiement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:27:01.78Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GMailer.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\GMailer.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Utils\\GMailer.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\GMailer.cs",
-              "RelativeToolTip": "gestionDashboard\\Utils\\GMailer.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADwv0cAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T01:14:11.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmUtilisateur.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmUtilisateur.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:11:02.269Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmUtilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmUtilisateur.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAmwJcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:37:15.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Personne.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Personne.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Models\\Personne.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Personne.cs",
-              "RelativeToolTip": "gestionDashboard\\Models\\Personne.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T16:45:41.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmListePaiements.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmListePaiements.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmListePaiements.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:25:42.036Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmPaiement.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPaiement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmPaiement.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAmwG0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:31:03.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmModifierPaiement.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\FrmModifierPaiement.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAD4v1AAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:27:03.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmPaiement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPaiement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmPaiement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:31:01.164Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmLocataire.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocataire.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmLocataire.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:25:44.005Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmLocation.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocation.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmLocation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:30:51.914Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmLocation.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocation.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmLocation.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAAwB0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:30:53.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "gestionDashboard\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T13:46:15.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\Helper.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\Helper.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Utils\\Helper.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Utils\\Helper.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\Helper.cs",
               "RelativeToolTip": "gestionDashboard\\Utils\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwHIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T01:11:09.102Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Models\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Utilisateur.cs",
-              "RelativeToolTip": "gestionDashboard\\Models\\Utilisateur.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:17:53.017Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmGestion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
+              "DocumentIndex": 3,
+              "Title": "frmGestion.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\frmGestion.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\frmGestion.cs [Design]",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
+              "RelativeToolTip": "gestionDashboard\\frmGestion.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAQwI8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:13:45.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAppartement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmAppartement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmAppartement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:13:30.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GMailer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\GMailer.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Utils\\GMailer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\GMailer.cs",
+              "RelativeToolTip": "gestionDashboard\\Utils\\GMailer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T01:14:11.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmResetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA3wDwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:27:22.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmDashBoard.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmDashBoard.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:13:04.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmSettings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmSettings.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmSettings.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmSettings.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmSettings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:47:20.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Program.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Program.cs",
+              "RelativeToolTip": "gestionDashboard\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAxwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:32:47.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmGestion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\frmGestion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\frmGestion.cs [Design]",
               "RelativeToolTip": "gestionDashboard\\frmGestion.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:26:16.359Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-25T11:26:16.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmConnexion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:26:54.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmConnexion.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwCIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:27:03.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BdLocationContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\BdLocationContext.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Models\\BdLocationContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\BdLocationContext.cs",
+              "RelativeToolTip": "gestionDashboard\\Models\\BdLocationContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:01:04.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Personne.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Personne.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Models\\Personne.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Personne.cs",
+              "RelativeToolTip": "gestionDashboard\\Models\\Personne.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T16:45:41.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "gestionDashboard\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:17:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmUtilisateur.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.Designer.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.Designer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.Designer.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmUtilisateur.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:47:45.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmResetPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmResetPassword.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmResetPassword.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmResetPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:27:16.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "frmLocataire.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocataire.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmLocataire.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAuwKUAAAARAAAAAAAAAA==",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\App.config",
+              "RelativeDocumentMoniker": "gestionDashboard\\App.config",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\App.config",
+              "RelativeToolTip": "gestionDashboard\\App.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-06T14:08:14.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmUtilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmUtilisateur.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAEwJgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:00:55.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T11:37:15.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmModifierPaiement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:27:01.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmUtilisateur.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmUtilisateur.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmUtilisateur.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\views\\frmUtilisateur.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:11:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmListePaiements.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmListePaiements.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmListePaiements.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T03:22:30.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "frmConnexion.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
-              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Title": "Whatsapp.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\Whatsapp.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Utils\\Whatsapp.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Utils\\Whatsapp.cs",
+              "RelativeToolTip": "gestionDashboard\\Utils\\Whatsapp.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:36:14.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T15:58:56.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmListePaiements.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmListePaiements.cs",
+              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmListePaiements.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:25:42.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmPaiement.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPaiement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmPaiement.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAmwG0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:31:03.53Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "frmConnexion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmConnexion.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmConnexion.cs [Design]",
-              "RelativeToolTip": "gestionDashboard\\views\\frmConnexion.cs [Design]",
+              "Title": "FrmModifierPaiement.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\FrmModifierPaiement.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAD4v1AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:10:29.62Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-25T15:27:03.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 25,
+              "Title": "frmPaiement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPaiement.cs",
+              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPaiement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:31:01.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmLocataire.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocataire.cs",
+              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:25:44.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmLocation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocation.cs",
+              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:30:51.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmLocation.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocation.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocation.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmLocation.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAwB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T00:30:53.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "gestionDashboard\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:46:15.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmLocataire.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
+              "RelativeDocumentMoniker": "gestionDashboard\\views\\frmLocataire.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmLocataire.cs",
+              "RelativeToolTip": "gestionDashboard\\views\\frmLocataire.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwKUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:00:55.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "rptListeProprietaire.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs",
+              "RelativeDocumentMoniker": "..\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs [Design]",
+              "RelativeToolTip": "..\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T03:03:28.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "rptListeProprietaire1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire1.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Report\\rptListeProprietaire1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\Report\\rptListeProprietaire1.cs [Design]",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire1.cs [Design]",
+              "RelativeToolTip": "gestionDashboard\\Report\\rptListeProprietaire1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T03:03:43.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "frmPrintListeProprietaire.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPrintListeProprietaire.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
               "RelativeToolTip": "gestionDashboard\\views\\frmPrintListeProprietaire.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -452,33 +588,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "rptListeProprietaire.rpt",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire.rpt",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire.rpt",
               "RelativeDocumentMoniker": "gestionDashboard\\Report\\rptListeProprietaire.rpt",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire.rpt",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Report\\rptListeProprietaire.rpt",
               "RelativeToolTip": "gestionDashboard\\Report\\rptListeProprietaire.rpt",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALtSURBVDhPbVNLTxNRFP7m0U47nc5AC9KWBrBUeSsgoIjBqCyMS2NC2KjhD3Rr4gLdmLgymhgDC8OGrYkbZaeoYWEgIZFXkASwIq/SlpZCO9OZ8d5hgA3fzTlzc\u002Bc8vnvOuQxsNDY2Ott6evySKAr20Qk0jTfVzNahKIqpkZERzT4GdP3tcQDm3fuxaEtjw8twZbDJPjuBaZjm8sr65lo8/iKXjE/EYrGC/QucpYeG2P5QZfDihcij6spAs\u002BL1\u002BGUiXomKSFi5/YIgVvFOb7fBiMu919vXxsfHderKWgHOgGmasJb1BWRJYILlcsSnyE8DNW23hoenHNTuzADUibCGbujIF/NQdRUOB4cSWWSjteHOUp//VaRVlKktDeDA/PxRLUgqgwpRVPa0DH5mpjCbmcN\u002B4QAMsfIpHlZw8pJWyFvJ2Sevv9wZbI31zqzkGzIHpqugFklmE4d6HmtaHJ\u002BSnzG6PoqZ7AxUsjiOAcOeEufLK8qrJcWIHGRD0cnFQuBvahvBEGFRmkCS2aH3wY/d70jmUngcGkRXWSdti\u002B1OAoRl9QOrOJrSJYG7qZxx49tsCsWVLQgNv6AENeKYxN6fPUzsf0U0V4d6sd4q6jHY/nvtCTO7MOn3HHzsiApbzdUSEjtuTE0Dk\u002BuLWNxZhL6so263AWGtBozOUVInoJcx5\u002BbmimrmX7ZMZtSWGgnVpQHoG1eQXapDISGgWbqM\u002B/UDaA91wOVwHXnasKrxnIiqqWBJlb0iD9njIK0JQ4jfRJs6gActD3G1rhv\u002BEj84lrO6cYzTchLQ/mfzBlKHHBTJi6aKCPrO30ZnbRdx9oHlKH06XLYDgRVgiG4YF7OTMZjpVQYGr\u002BBavQd9l1xorVGgeL3geWvwjubE2h2Bp2q\u002B6RlT614wt3PuGY9TT3RUHRpeQdNcatrYiO\u002BTp0aM7KyUfnwzvctppvWgTm5DZ9t5LusR3eWEVQbFom4u/Z4y06urtsUpEgnDGBt7kwUY8z\u002B1wC8erO3dAQAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAXuSURBVEhLfVVLbxvXFf7mzp0nX0OJkimJoWxJdlQ/YMNu01VRGzBQoIUXXSjLBtlkm58g6xcEXsY/IVl2X2STxgaqxEASR5Gqh8VaD1okNRxy3ncmZ4aSTQVBP\u002BLM5dzHd86c15XwDtK9e/d44\u002BbNwmSxaCJNFcL4\u002BgW4XpqwwA7jOHaXlpbctbU1QdPpaJUQRX8DY399S7C6usrLhIVr12\u002BUiqUbE1XLYpwrZ8sXkBKiSIhOxx66rrvZ7p5suCY77r98GZCiJN\u002BUJFchxLVzBdKTJ09UtTw9s7y48KhcKT\u002BqVa0m51wDO9sxOpaD\u002BBFGcfymY/f7zuCbU7v/ryDy1oed5M0nnzzyJEl6\u002ByX8bMReHLPrMuOlslGsVMyparVYV7iiny3nIF7yAf3oTxyJFBIXqmqUmGLWB32by8xbf/r06T6tx\u002BdKRvbRgUajAVmWJZIMConK\u002BTvJ3mXORu\u002BjNc00VLNYNGYrReO2aegPTVX/wKovN7744hudlOTeOXfAbyKz9Hw8tzxJk1xAxzVVhqkrRsnUZwuG/iejYPxZU/Q73DJLjx9/JWdn/6\u002BCDDn5GHEkIkRJDJEKMFkiJVwqFnStVqs2Lct6YBQKfzcMVr9//3Lu/kyBjA8/vKgo8/VbyciBmEgH8RCHwRHJIU6CDvw4QEqu5gpjxYKm64Za44o8q3KmO6VOzsk\u002B\u002BvSz0srCw\u002BJOWzH7nqSFMTgRShlpkpHTn8xyXwToxafY8Xbx83ATO\u002B4uukEPAc0zSYKuKpKqMC5zSUkEY1qHj2IwPX/rVr26dCMcVt5/3YmanX5oeX6iUJ5LQiTkipRcEsFJBjiMjvCD\u002BwOe2c/x797X2HI30Y27EFIMieyVmUTKZChj1cOsanluYqK6NFky7zB18u5\u002BW1zZPYoK24cua50Mcew4aAdddOIe7MSGIxy0vH286L/As94zvOz/iGO/TV/okzFZsdCnj4HpuskKploqFbRZ3TSWbI/V99qh\u002BdOew376Xw9bb95gZ/AaB\u002BERTsUpQhGi63exdbqJ5\u002B1neNF5gVfOKwwil\u002BJE3SJX8g6soKXPLUOsT1eU76cnyi1FVZ1hkCT/PXTx7XYHX2\u002B18PxgAz8SYSvYhx3YGPaHsNs2tl5tYaO1gZ32LvpeH1TcecFHI\u002B4czCyIoyKXdstq8rJsyN9PllhrqszcssGTIJTwuh1ja9/F5nEH2/YBDpwjOL0\u002BknYCratDdXTIPkdKrGmWGRnGNLB//OWOy4ONEy1y9kzu/NyYZK\u002Bb08qwMaWJoqbDGxg4PjDQOhRodWy07S58O4TZL6ARNTGXvocJNgUFGqSU/dpDeR2kKysryTHritjv\u002BYaahFaBiUZNw4xVRFWbhDScR3TShH88jdDWURQTWCgs4e6lD3Bz\u002BjbeqzRhqiZ154vllCGfyRJ24Hkp9fZEkdJEo0fJ4CgZCkzNoMKogTlNKJ33UfNu4qpxF7frf8CNmVtoTs6jYlagygqlKMvTdRwXXoMgoGdCG6nNUhughkajAoWVocVzqPjLmMfvcb3yR9xu3MOV\u002BhJqVg2GblDbkEH1NsJ4HZyNF5CQH/0ohRuSUiFDVTTUChbmrTlcn/odli8t4/LUZVSLFvUi8n1mdt5WssMk40E\u002BG3NomgbXTyXbTaRDG7ApOxjXMTOpY3FGx/JsAVcvVTFbraJcoK8icmrjuY8z7nMZR64gm2yQxJEuuSGLbQ8\u002BpfnQjfjQ1LVBo8YHC5e4c2Vacupl2SlpskO3i0MnHZEkTixih\u002BLnUB04dJO6saDOFcS5rtxr1DGlx/9cN65Jxhw3tYeQ1Qd\u002BqE7F5E2yIDG0RJgsTA3JSxWElC1i5O8xcyWKmTPw3d6pv0232ee\u002Bne5\u002B/PEDfxQWUvD5OsV0\u002BztLrRYXZVm/kqSymfUuxkWqc5Eowk\u002BZGNJlPKQDv0r2M9iDILKdsOsL/p/uvtFbW3sQn8edkEqrq1/Ji4uhJkqqYhoaGV\u002Bm\u002BT7iWKS2vY/jdjs93dsbbf8NeJ6e9noONaT73pdfrpAVUvoL1a3jT4z74WkAAAAASUVORK5CYII=",
               "WhenOpened": "2025-02-20T02:50:18.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "frmPrintListeProprietaire.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPrintListeProprietaire.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\views\\frmPrintListeProprietaire.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ADMIN\\source\\repos\\gestion_location\\gestionDashboard\\views\\frmPrintListeProprietaire.cs [Design]",
+              "RelativeToolTip": "..\\gestion_location\\gestionDashboard\\views\\frmPrintListeProprietaire.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T02:56:02.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "frmPrintListeProprietaire.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
               "RelativeToolTip": "gestionDashboard\\views\\frmPrintListeProprietaire.Designer.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwCoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -486,24 +622,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\App.config",
-              "RelativeDocumentMoniker": "gestionDashboard\\App.config",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\App.config",
-              "RelativeToolTip": "gestionDashboard\\App.config",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAACFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-06T14:08:14.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Td_Erreur.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Td_Erreur.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Td_Erreur.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Td_Erreur.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Td_Erreur.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Td_Erreur.cs",
               "RelativeToolTip": "gestionDashboard\\Models\\Td_Erreur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -511,23 +634,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BdLocationContext.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\BdLocationContext.cs",
-              "RelativeDocumentMoniker": "gestionDashboard\\Models\\BdLocationContext.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\BdLocationContext.cs",
-              "RelativeToolTip": "gestionDashboard\\Models\\BdLocationContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T02:01:04.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Location.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Location.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Location.cs",
               "RelativeToolTip": "gestionDashboard\\Models\\Location.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -535,11 +646,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Appartement.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Appartement.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Appartement.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Appartement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Appartement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Appartement.cs",
               "RelativeToolTip": "gestionDashboard\\Models\\Appartement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,11 +658,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "frmAppartement.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\views\\frmAppartement.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\views\\frmAppartement.cs",
               "RelativeToolTip": "gestionDashboard\\views\\frmAppartement.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwJAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -559,11 +670,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "Erreur.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Erreur.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Erreur.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Erreur.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Erreur.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Erreur.cs",
               "RelativeToolTip": "gestionDashboard\\Models\\Erreur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -571,11 +682,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "Locataire.cs",
-              "DocumentMoniker": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Locataire.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Locataire.cs",
               "RelativeDocumentMoniker": "gestionDashboard\\Models\\Locataire.cs",
-              "ToolTip": "C:\\Users\\julesBest\\Documents\\INFORMATIQUE\\L3GL\\C#\\gestionAppartement\\gestion_Appartement\\gestionDashboard\\Models\\Locataire.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\gestion_Appartement\\gestionDashboard\\Models\\Locataire.cs",
               "RelativeToolTip": "gestionDashboard\\Models\\Locataire.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

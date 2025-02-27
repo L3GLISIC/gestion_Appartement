@@ -141,7 +141,9 @@ namespace gestionDashboard
 
         private void btnDeconnexion_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmConnexion f = new frmConnexion();
+            f.Show();
+            this.Close();
         }
 
         private void btnDashboard_Leave(object sender, EventArgs e)

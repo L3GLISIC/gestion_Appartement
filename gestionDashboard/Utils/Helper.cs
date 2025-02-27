@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Gestion.Model;
 using gestionDashboard.Models;
 using System.Security.Cryptography;
+using System.Windows.Forms;
+using System.Security;
 
 namespace gestionDashboard.Utils
 {
@@ -25,7 +27,7 @@ namespace gestionDashboard.Utils
             
         }
 
-        static bool VerifyMd5Hash(MD5 md5Hash, string input, string hash)
+         public static bool VerifyMd5Hash(MD5 md5Hash, string input, string hash)
         {
             string hashOfInput = GetMd5Hash(md5Hash, input);
             StringComparer comparer = StringComparer.OrdinalIgnoreCase;
@@ -38,6 +40,30 @@ namespace gestionDashboard.Utils
                 return false;
             }
         }
+
+        public static bool ValidatePassword(string password)
+        {
+            if (password.Length < 8)
+            {
+                MessageBox.Show("Le mot de passe doit contenir au moins 8 caractères.");
+                return false;
+            }
+
+            if (!password.Any(char.IsUpper))
+            {
+                MessageBox.Show("Le mot de passe doit contenir au moins une lettre majuscule.");
+                return false;
+            }
+
+            if (!password.Any(char.IsDigit))
+            {
+                MessageBox.Show("Le mot de passe doit contenir au moins un chiffre.");
+                return false;
+            }
+
+            return true;
+        }
+
     }
     public class Helper
     {
@@ -67,11 +93,32 @@ namespace gestionDashboard.Utils
 
         public static void WriteLogSystem(string erreur, string libelle)
         {
-            using (EventLog eventLog = new EventLog("Application"))
+            string source = "Gestion Location";
+            string logName = "Application";
+
+            try
             {
-                eventLog.Source = "Gestion Location";
-                eventLog.WriteEntry(string.Format("date: {0}, libelle: {1}, description: {2}", DateTime.Now, libelle, erreur), EventLogEntryType.Information, 101, 1);
+                if (!EventLog.SourceExists(source))
+                {
+                    EventLog.CreateEventSource(source, logName);
+                }
+
+                using (EventLog eventLog = new EventLog(logName))
+                {
+                    eventLog.Source = source;
+                    eventLog.WriteEntry(
+                        string.Format("Date: {0}, Libelle: {1}, Description: {2}", DateTime.Now, libelle, erreur),
+                        EventLogEntryType.Information,
+                        101,
+                        1);
+                }
+            }
+            catch (SecurityException ex)
+            {
+                MessageBox.Show("Erreur de permissions : exécutez l'application en tant qu'administrateur.\nDétails : " + ex.Message);
             }
         }
+
+
     }
 }

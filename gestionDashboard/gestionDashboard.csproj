@@ -278,6 +278,12 @@
     <Compile Include="views\frmProprietaire.Designer.cs">
       <DependentUpon>frmProprietaire.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\frmResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\frmResetPassword.Designer.cs">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\frmSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmProprietaire.resx">
       <DependentUpon>frmProprietaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\frmResetPassword.resx">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\frmSettings.resx">
       <DependentUpon>frmSettings.cs</DependentUpon>

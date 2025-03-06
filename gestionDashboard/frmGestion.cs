@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using gestionDashboard.views;
+using gestionDashboard.Models;
 
 namespace gestionDashboard
 {
@@ -33,7 +34,23 @@ namespace gestionDashboard
             pnlNav.Left = btnDashboard.Left;
             btnDashboard.BackColor = Color.FromArgb(46, 51, 73);
             this.IsMdiContainer = true;
+            lblUsername.Text = user.Prenom + " " + user.Nom;
+
+            if(user.profil == "Admin")
+            {
+                btnAppartement.Visible = false;
+                btnProprietaire.Visible = false;
+                btnLocataire.Visible = false;
+                btnPaiements.Visible = false;
+                btnLocation.Visible = false;
+            }else
+            {
+                btnUsers.Visible = false;
+            }
+            
         }
+
+        Utilisateur user = frmConnexion.userConnecte;
 
         private void frmDashboard_Load(object sender, EventArgs e)
         {

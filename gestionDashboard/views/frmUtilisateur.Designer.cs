@@ -244,6 +244,7 @@
             this.btnModifierUtilisateur.Text = "Modifier";
             this.btnModifierUtilisateur.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnModifierUtilisateur.UseVisualStyleBackColor = true;
+            this.btnModifierUtilisateur.Click += new System.EventHandler(this.btnModifierUtilisateur_Click);
             // 
             // btnEnregistrerUtilisateur
             // 
@@ -265,14 +266,14 @@
             this.btnBloquerUtilisateur.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
             this.btnBloquerUtilisateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBloquerUtilisateur.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
-            this.btnBloquerUtilisateur.Image = global::gestionDashboard.Properties.Resources.icons8_unfriend_24;
-            this.btnBloquerUtilisateur.Location = new System.Drawing.Point(15, 509);
+            this.btnBloquerUtilisateur.Location = new System.Drawing.Point(352, 77);
             this.btnBloquerUtilisateur.Name = "btnBloquerUtilisateur";
-            this.btnBloquerUtilisateur.Size = new System.Drawing.Size(207, 34);
+            this.btnBloquerUtilisateur.Size = new System.Drawing.Size(103, 34);
             this.btnBloquerUtilisateur.TabIndex = 69;
             this.btnBloquerUtilisateur.Text = "Bloquer";
             this.btnBloquerUtilisateur.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnBloquerUtilisateur.UseVisualStyleBackColor = true;
+            this.btnBloquerUtilisateur.Click += new System.EventHandler(this.btnBloquerUtilisateur_Click);
             // 
             // frmUtilisateur
             // 

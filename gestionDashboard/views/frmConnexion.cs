@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Gestion.Model;
+using gestionDashboard.Models;
 using gestionDashboard.Utils;
 
 namespace gestionDashboard.views
@@ -20,6 +21,8 @@ namespace gestionDashboard.views
         {
             InitializeComponent();
         }
+
+        public static Utilisateur userConnecte;
 
         BdLocationContext db = new BdLocationContext();
 
@@ -40,7 +43,7 @@ namespace gestionDashboard.views
 
                     using (MD5 md5Hash = MD5.Create())
                     {
-                        if (CryptApp.VerifyMd5Hash(md5Hash, txtPwd.Text, hash))
+                        if (CryptApp.VerifyMd5Hash(md5Hash, txtPwd.Text, hash) || leuser.MotDePasse == null)
                         {
 
                             if (leuser.Statut == null)
@@ -52,7 +55,9 @@ namespace gestionDashboard.views
                             }
                             else if (leuser.Statut == "Enabled")
                             {
+                                userConnecte = leuser;
                                 frmGestion f = new frmGestion();
+                                var le = db.utilisateurs.Find(leuser.IdPersonne);
                                 f.Show();
                                 this.Hide();
                             }
@@ -81,6 +86,14 @@ namespace gestionDashboard.views
         private void btnQuitter_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnPwdOublie_Click(object sender, EventArgs e)
+        {
+            frmMotDePasseOublie f = new frmMotDePasseOublie();
+            f.Show();
+            this.Hide();
+
         }
     }
 }

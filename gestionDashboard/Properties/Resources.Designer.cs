@@ -193,6 +193,16 @@ namespace gestionDashboard.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_envoyer_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-envoyer-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_immeuble_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-immeuble-24", resourceCulture);

@@ -33,8 +33,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtIdentifiant = new System.Windows.Forms.TextBox();
-            this.btnEnregistrerUtilisateur = new System.Windows.Forms.Button();
+            this.btnConnexionUtilisateur = new System.Windows.Forms.Button();
             this.btnQuitter = new System.Windows.Forms.Button();
+            this.btnPwdOublie = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +43,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.label1.Location = new System.Drawing.Point(102, 9);
+            this.label1.Location = new System.Drawing.Point(120, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(160, 32);
             this.label1.TabIndex = 57;
@@ -59,7 +60,7 @@
             this.txtPwd.Multiline = true;
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.PasswordChar = '*';
-            this.txtPwd.Size = new System.Drawing.Size(207, 20);
+            this.txtPwd.Size = new System.Drawing.Size(212, 20);
             this.txtPwd.TabIndex = 2;
             // 
             // label4
@@ -93,23 +94,23 @@
             this.txtIdentifiant.Location = new System.Drawing.Point(99, 106);
             this.txtIdentifiant.Multiline = true;
             this.txtIdentifiant.Name = "txtIdentifiant";
-            this.txtIdentifiant.Size = new System.Drawing.Size(207, 20);
+            this.txtIdentifiant.Size = new System.Drawing.Size(212, 20);
             this.txtIdentifiant.TabIndex = 1;
             // 
-            // btnEnregistrerUtilisateur
+            // btnConnexionUtilisateur
             // 
-            this.btnEnregistrerUtilisateur.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
-            this.btnEnregistrerUtilisateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnregistrerUtilisateur.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
-            this.btnEnregistrerUtilisateur.Image = global::gestionDashboard.Properties.Resources.icons8_sauvegarder_24;
-            this.btnEnregistrerUtilisateur.Location = new System.Drawing.Point(198, 239);
-            this.btnEnregistrerUtilisateur.Name = "btnEnregistrerUtilisateur";
-            this.btnEnregistrerUtilisateur.Size = new System.Drawing.Size(113, 34);
-            this.btnEnregistrerUtilisateur.TabIndex = 3;
-            this.btnEnregistrerUtilisateur.Text = "Se Connecter";
-            this.btnEnregistrerUtilisateur.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnEnregistrerUtilisateur.UseVisualStyleBackColor = true;
-            this.btnEnregistrerUtilisateur.Click += new System.EventHandler(this.btnEnregistrerUtilisateur_Click);
+            this.btnConnexionUtilisateur.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnConnexionUtilisateur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConnexionUtilisateur.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnConnexionUtilisateur.Image = global::gestionDashboard.Properties.Resources.icons8_sauvegarder_24;
+            this.btnConnexionUtilisateur.Location = new System.Drawing.Point(198, 239);
+            this.btnConnexionUtilisateur.Name = "btnConnexionUtilisateur";
+            this.btnConnexionUtilisateur.Size = new System.Drawing.Size(113, 34);
+            this.btnConnexionUtilisateur.TabIndex = 3;
+            this.btnConnexionUtilisateur.Text = "Se Connecter";
+            this.btnConnexionUtilisateur.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnConnexionUtilisateur.UseVisualStyleBackColor = true;
+            this.btnConnexionUtilisateur.Click += new System.EventHandler(this.btnEnregistrerUtilisateur_Click);
             // 
             // btnQuitter
             // 
@@ -126,17 +127,33 @@
             this.btnQuitter.UseVisualStyleBackColor = true;
             this.btnQuitter.Click += new System.EventHandler(this.btnQuitter_Click);
             // 
+            // btnPwdOublie
+            // 
+            this.btnPwdOublie.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnPwdOublie.FlatAppearance.BorderSize = 0;
+            this.btnPwdOublie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPwdOublie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(192)))), ((int)(((byte)(87)))));
+            this.btnPwdOublie.Location = new System.Drawing.Point(99, 290);
+            this.btnPwdOublie.Name = "btnPwdOublie";
+            this.btnPwdOublie.Size = new System.Drawing.Size(212, 34);
+            this.btnPwdOublie.TabIndex = 79;
+            this.btnPwdOublie.Text = "modifier votre mot de passe ?";
+            this.btnPwdOublie.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnPwdOublie.UseVisualStyleBackColor = true;
+            this.btnPwdOublie.Click += new System.EventHandler(this.btnPwdOublie_Click);
+            // 
             // frmConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(405, 317);
+            this.ClientSize = new System.Drawing.Size(405, 379);
             this.ControlBox = false;
+            this.Controls.Add(this.btnPwdOublie);
             this.Controls.Add(this.btnQuitter);
             this.Controls.Add(this.txtPwd);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnEnregistrerUtilisateur);
+            this.Controls.Add(this.btnConnexionUtilisateur);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtIdentifiant);
             this.Controls.Add(this.label1);
@@ -153,9 +170,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPwd;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnEnregistrerUtilisateur;
+        private System.Windows.Forms.Button btnConnexionUtilisateur;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtIdentifiant;
         private System.Windows.Forms.Button btnQuitter;
+        private System.Windows.Forms.Button btnPwdOublie;
     }
 }

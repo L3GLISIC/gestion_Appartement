@@ -16,6 +16,9 @@ namespace gestionDashboard.Models
         [Required, MinLength(8)]
         public string MotDePasse { get; set; }
 
+       
+        public string profil { get; set; }
+
 
         public string Statut { get; set; }
 

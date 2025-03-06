@@ -547,3 +547,4 @@ C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\doc1\gestio
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\doc1\gestion_Appartement\gestionDashboard\obj\Debug\gestionD.7A3211AF.Up2Date
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\doc1\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.exe
 C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\doc1\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.pdb
+C:\Users\julesBest\Documents\INFORMATIQUE\L3GL\C#\gestionAppartement\doc1\gestion_Appartement\gestionDashboard\obj\Debug\gestionDashboard.views.frmMotDePasseOublie.resources
